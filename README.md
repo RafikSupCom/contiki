@@ -1,4 +1,4 @@
-# LoRa_RPL: A LoRaWAN-Aware RPL Framework for Post-Disaster Multi-Hop Communications
+# LoRa_RPL: A hierarchical multi-hop framework for LoRaWAN using RPL for post-disaster communications
 
 ## Overview
 
