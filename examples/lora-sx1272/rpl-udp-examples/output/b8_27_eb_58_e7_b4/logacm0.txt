@@ -1,0 +1,1400 @@
+[20:05:19.549740 0.000002] [INFO: Main      ] Starting Contiki-NG-release/v4.3-132-g0529b82-dirty
+[20:05:19.557074 0.007354] [INFO: Main      ] - Routing: RPL Lite
+[20:05:19.561599 0.004523] [INFO: Main      ] - Net: sicslowpan
+[20:05:19.565258 0.003662] [INFO: Main      ] - MAC: TSCH
+[20:05:19.568294 0.003036] [INFO: Main      ] - 802.15.4 PANID: 0x81a5
+[20:05:19.572411 0.004117] [INFO: Main      ] - 802.15.4 TSCH default hopping sequence length: 1
+[20:05:19.579022 0.006611] [INFO: Main      ] Node ID: 43012
+[20:05:19.582332 0.003310] [INFO: Main      ] Link-layer address: 0012.4b00.0f29.a804
+[20:05:19.588020 0.005687] [INFO: RPL       ] initializing
+[20:05:19.590987 0.002968] [INFO: Main      ] Tentative link-local IPv6 address: fe80::212:4b00:f29:a804
+[20:05:19.598166 0.007177] [INFO: CC26xx/CC13xx] TI CC1350 LaunchPad
+[20:05:19.602047 0.003883] [INFO: CC26xx/CC13xx]  RF: Channel 0
+[20:05:19.682453 0.080405] Orchestra: initializing rule 0
+[20:05:19.688323 0.005869] [INFO: TSCH Sched] add_slotframe 0 23
+[20:05:19.694766 0.006445] [INFO: TSCH Sched] add_link sf=0 opt=Tx type=ADV_ONLY ts=4 ch=0 addr=ffff.ffff.ffff.ffff
+[20:05:19.703007 0.008241] Orchestra: initializing rule 1
+[20:05:19.706045 0.003038] [INFO: TSCH Sched] add_slotframe 1 13
+[20:05:19.709652 0.003607] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=0 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.717865 0.008213] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=1 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.726119 0.008255] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=2 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.734361 0.008241] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=3 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.742446 0.008085] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Rx|Sh type=NORMAL ts=4 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.751076 0.008630] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=5 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.759358 0.008280] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=6 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.768070 0.008711] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=7 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.777456 0.009388] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=8 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.786891 0.009436] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=9 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.796721 0.009761] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=10 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.807246 0.010591] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=11 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.816932 0.009688] [INFO: TSCH Sched] add_link sf=1 opt=Tx|Sh type=NORMAL ts=12 ch=1 addr=ffff.ffff.ffff.ffff
+[20:05:19.825812 0.008880] Orchestra: initializing rule 2
+[20:05:19.828906 0.003095] [INFO: TSCH Sched] add_slotframe 2 11
+[20:05:19.832724 0.003817] [INFO: TSCH Sched] add_link sf=2 opt=Tx|Rx|Sh type=NORMAL ts=0 ch=2 addr=ffff.ffff.ffff.ffff
+[20:05:19.841221 0.008498] Orchestra: initialization done
+[20:05:19.844255 0.003034] [INFO: TSCH      ] scanning on channel 20
+[20:05:19.848286 0.004030] [INFO: TSCH      ] starting as node
+[20:05:20.856228 1.007942] [INFO: TSCH      ] scanning on channel 20
+[20:05:21.888244 1.032012] [INFO: TSCH      ] scanning on channel 20
+[20:05:22.919003 1.030764] [INFO: TSCH      ] scanning on channel 20
+[20:05:23.949888 1.030880] [INFO: TSCH      ] scanning on channel 20
+[20:05:24.981612 1.031727] [INFO: TSCH      ] scanning on channel 20
+[20:05:26.012474 1.030860] [INFO: TSCH      ] scanning on channel 20
+[20:05:27.043548 1.031072] [INFO: TSCH      ] scanning on channel 20
+[20:05:28.075308 1.031762] [INFO: TSCH      ] scanning on channel 20
+[20:05:29.106049 1.030741] [INFO: TSCH      ] scanning on channel 20
+[20:05:30.137853 1.031807] [INFO: TSCH      ] scanning on channel 20
+[20:05:31.168672 1.030818] [INFO: TSCH      ] scanning on channel 20
+[20:05:32.199517 1.030842] [INFO: TSCH      ] scanning on channel 20
+[20:05:33.231503 1.031987] [INFO: TSCH      ] scanning on channel 20
+[20:05:34.262277 1.030777] [INFO: TSCH      ] scanning on channel 20
+[20:05:35.294021 1.031745] [INFO: TSCH      ] scanning on channel 20
+[20:05:36.324935 1.030910] [INFO: TSCH      ] scanning on channel 20
+[20:05:37.355605 1.030670] [INFO: TSCH      ] scanning on channel 20
+[20:05:39.926354 2.570751] [INFO: TSCH      ] scanning on channel 20
+[20:05:40.949755 1.023397] [INFO: TSCH      ] scanning on channel 20
+[20:05:41.981585 1.031835] [INFO: TSCH      ] scanning on channel 20
+[20:05:43.012492 1.030903] [INFO: TSCH      ] scanning on channel 20
+[20:05:44.043203 1.030711] [INFO: TSCH      ] scanning on channel 20
+[20:05:45.075188 1.031988] [INFO: TSCH      ] scanning on channel 20
+[20:05:46.105859 1.030672] [INFO: TSCH      ] scanning on channel 20
+[20:05:47.136724 1.030861] [INFO: TSCH      ] scanning on channel 20
+[20:05:48.168773 1.032048] [INFO: TSCH      ] scanning on channel 20
+[20:05:49.199620 1.030849] [INFO: TSCH      ] scanning on channel 20
+[20:05:50.231482 1.031859] [INFO: TSCH      ] scanning on channel 20
+[20:05:51.262134 1.030653] [INFO: TSCH      ] scanning on channel 20
+[20:05:52.292913 1.030785] [INFO: TSCH      ] scanning on channel 20
+[20:05:53.324952 1.032037] [INFO: TSCH      ] scanning on channel 20
+[20:05:54.355611 1.030659] [INFO: TSCH      ] scanning on channel 20
+[20:05:55.387794 1.032180] [INFO: TSCH      ] scanning on channel 20
+[20:05:56.418649 1.030855] [INFO: TSCH      ] scanning on channel 20
+[20:05:57.449298 1.030651] [INFO: TSCH      ] scanning on channel 20
+[20:05:58.481416 1.032117] [INFO: TSCH      ] scanning on channel 20
+[20:05:59.512042 1.030626] [INFO: TSCH      ] scanning on channel 20
+[20:06:00.543942 1.031903] [INFO: TSCH      ] scanning on channel 20
+[20:06:01.574678 1.030732] [INFO: TSCH      ] scanning on channel 20
+[20:06:02.605402 1.030728] [INFO: TSCH      ] scanning on channel 20
+[20:06:03.637506 1.032103] [INFO: TSCH      ] scanning on channel 20
+[20:06:06.113277 2.475768] [INFO: TSCH      ] scanning on channel 20
+[20:06:08.770192 2.656918] [INFO: TSCH      ] scanning on channel 20
+[20:06:09.793548 1.023353] [INFO: TSCH      ] scanning on channel 20
+[20:06:10.824321 1.030774] [INFO: TSCH      ] scanning on channel 20
+[20:06:11.856004 1.031686] [INFO: TSCH      ] scanning on channel 20
+[20:06:12.886852 1.030845] [INFO: TSCH      ] scanning on channel 20
+[20:06:13.917627 1.030775] [INFO: TSCH      ] scanning on channel 20
+[20:06:14.949521 1.031897] [INFO: TSCH      ] scanning on channel 20
+[20:06:15.980428 1.030903] [INFO: TSCH      ] scanning on channel 20
+[20:06:17.012453 1.032025] [INFO: TSCH      ] scanning on channel 20
+[20:06:18.043313 1.030860] [INFO: TSCH      ] scanning on channel 20
+[20:06:20.425309 2.381996] [INFO: TSCH      ] scanning on channel 20
+[20:06:21.448550 1.023241] [INFO: TSCH      ] scanning on channel 20
+[20:06:22.480460 1.031910] [INFO: TSCH      ] scanning on channel 20
+[20:06:23.511276 1.030817] [INFO: TSCH      ] scanning on channel 20
+[20:06:24.543340 1.032065] [INFO: TSCH      ] scanning on channel 20
+[20:06:25.574085 1.030741] [INFO: TSCH      ] scanning on channel 20
+[20:06:26.604799 1.030720] [INFO: TSCH      ] scanning on channel 20
+[20:06:27.636881 1.032082] [INFO: TSCH      ] scanning on channel 20
+[20:06:28.667472 1.030591] [INFO: TSCH      ] scanning on channel 20
+[20:06:29.699668 1.032193] [INFO: TSCH      ] scanning on channel 20
+[20:06:30.730434 1.030765] [INFO: TSCH      ] scanning on channel 20
+[20:06:31.761098 1.030660] [INFO: TSCH      ] scanning on channel 20
+[20:06:32.793039 1.031949] [INFO: TSCH      ] scanning on channel 20
+[20:06:33.823777 1.030737] [INFO: TSCH      ] scanning on channel 20
+[20:06:34.855740 1.031961] [INFO: TSCH      ] scanning on channel 20
+[20:06:35.886579 1.030838] [INFO: TSCH      ] scanning on channel 20
+[20:06:36.917299 1.030721] [INFO: TSCH      ] scanning on channel 20
+[20:06:37.949276 1.031977] [INFO: TSCH      ] scanning on channel 20
+[20:06:38.979972 1.030699] [INFO: TSCH      ] scanning on channel 20
+[20:06:39.284597 0.304619] [INFO: TSCH      ] scan: received packet (34 bytes) on channel 20
+[20:06:39.296019 0.011429] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 49 e9
+[20:06:39.305024 0.009005] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/ffff.0000.0000.0000
+[20:06:40.009994 0.704968] [INFO: TSCH      ] scanning on channel 20
+[20:06:41.043409 1.033415] [INFO: TSCH      ] scanning on channel 20
+[20:06:42.074163 1.030751] [INFO: TSCH      ] scanning on channel 20
+[20:06:43.104849 1.030678] [INFO: TSCH      ] scanning on channel 20
+[20:06:44.136701 1.031864] [INFO: TSCH      ] scanning on channel 20
+[20:06:45.167496 1.030793] [INFO: TSCH      ] scanning on channel 20
+[20:06:46.199393 1.031897] [INFO: TSCH      ] scanning on channel 20
+[20:06:47.230296 1.030901] [INFO: TSCH      ] scanning on channel 20
+[20:06:48.260772 1.030480] [INFO: TSCH      ] scanning on channel 20
+[20:06:51.304058 3.043286] [INFO: TSCH      ] scanning on channel 20
+[20:06:52.323711 1.019649] [INFO: TSCH      ] scanning on channel 20
+[20:06:53.355725 1.032014] [INFO: TSCH      ] scanning on channel 20
+[20:06:54.386464 1.030740] [INFO: TSCH      ] scanning on channel 20
+[20:06:55.417060 1.030599] [INFO: TSCH      ] scanning on channel 20
+[20:06:56.449234 1.032170] [INFO: TSCH      ] scanning on channel 20
+[20:06:57.480196 1.030962] [INFO: TSCH      ] scanning on channel 20
+[20:06:58.510963 1.030767] [INFO: TSCH      ] scanning on channel 20
+[20:06:59.542859 1.031899] [INFO: TSCH      ] scanning on channel 20
+[20:07:00.573612 1.030755] [INFO: TSCH      ] scanning on channel 20
+[20:07:01.604380 1.030764] [INFO: TSCH      ] scanning on channel 20
+[20:07:02.636625 1.032244] [INFO: TSCH      ] scanning on channel 20
+[20:07:03.667457 1.030835] [INFO: TSCH      ] scanning on channel 20
+[20:07:04.698442 1.030983] [INFO: TSCH      ] scanning on channel 20
+[20:07:05.730432 1.031992] [INFO: TSCH      ] scanning on channel 20
+[20:07:06.761230 1.030795] [INFO: TSCH      ] scanning on channel 20
+[20:07:07.792032 1.030802] [INFO: TSCH      ] scanning on channel 20
+[20:07:08.823980 1.031946] [INFO: TSCH      ] scanning on channel 20
+[20:07:09.854660 1.030686] [INFO: TSCH      ] scanning on channel 20
+[20:07:10.886689 1.032025] [INFO: TSCH      ] scanning on channel 20
+[20:07:11.917365 1.030680] [INFO: TSCH      ] scanning on channel 20
+[20:07:12.948121 1.030756] [INFO: TSCH      ] scanning on channel 20
+[20:07:13.980179 1.032055] [INFO: TSCH      ] scanning on channel 20
+[20:07:15.011082 1.030902] [INFO: TSCH      ] scanning on channel 20
+[20:07:16.041616 1.030538] [INFO: TSCH      ] scanning on channel 20
+[20:07:17.073903 1.032284] [INFO: TSCH      ] scanning on channel 20
+[20:07:18.104517 1.030613] [INFO: TSCH      ] scanning on channel 20
+[20:07:18.143999 0.039486] [INFO: RPL       ] sending a DIS to ff02::1a
+[20:07:18.151933 0.007931] [WARN: TSCH      ] ! not associated, drop outgoing packet
+[20:07:19.135632 0.983702] [INFO: TSCH      ] scanning on channel 20
+[20:07:20.167651 1.032017] [INFO: TSCH      ] scanning on channel 20
+[20:07:21.007244 0.839595] [INFO: TSCH      ] scan: received packet (110 bytes) on channel 20
+[20:07:21.014270 0.007024] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 29 ec
+[20:07:21.024365 0.010096] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/0012.4b00.1531.f806
+[20:07:21.192641 0.168276] [INFO: TSCH      ] scanning on channel 20
+[20:07:22.223484 1.030842] [INFO: TSCH      ] scanning on channel 20
+[20:07:23.261717 1.038231] [INFO: TSCH      ] scanning on channel 20
+[20:07:24.292405 1.030692] [INFO: TSCH      ] scanning on channel 20
+[20:07:25.323194 1.030789] [INFO: TSCH      ] scanning on channel 20
+[20:07:25.552651 0.229450] [INFO: TSCH      ] scan: received packet (110 bytes) on channel 20
+[20:07:25.560717 0.008074] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 29 ec
+[20:07:25.570094 0.009374] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/0012.4b00.1531.f806
+[20:07:26.353021 0.782929] [INFO: TSCH      ] scanning on channel 20
+[20:07:27.386325 1.033304] [INFO: TSCH      ] scanning on channel 20
+[20:07:28.417056 1.030726] [INFO: TSCH      ] scanning on channel 20
+[20:07:29.285482 0.868427] [INFO: TSCH      ] scan: received packet (34 bytes) on channel 20
+[20:07:29.310187 0.024705] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 49 e9
+[20:07:29.319389 0.009207] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/ffff.0000.0000.0000
+[20:07:29.442203 0.122811] [INFO: TSCH      ] scanning on channel 20
+[20:07:30.098035 0.655822] [INFO: TSCH      ] scan: received packet (110 bytes) on channel 20
+[20:07:30.111048 0.013003] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 29 ec
+[20:07:30.120276 0.009251] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/0012.4b00.1531.f806
+[20:07:30.474662 0.354385] [INFO: TSCH      ] scanning on channel 20
+[20:07:31.505246 1.030584] [INFO: TSCH      ] scanning on channel 20
+[20:07:32.536121 1.030872] [INFO: TSCH      ] scanning on channel 20
+[20:07:34.644485 2.108362] [INFO: TSCH      ] scan: received packet (110 bytes) on channel 20
+[20:07:34.651468 0.006988] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 29 ec
+[20:07:34.661500 0.010031] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/0012.4b00.1531.f806
+[20:07:34.672139 0.010635] [INFO: TSCH      ] scanning on channel 20
+[20:07:35.698088 1.025954] [INFO: TSCH      ] scanning on channel 20
+[20:07:36.728973 1.030881] [INFO: TSCH      ] scanning on channel 20
+[20:07:37.760999 1.032029] [INFO: TSCH      ] scanning on channel 20
+[20:07:38.791772 1.030770] [INFO: TSCH      ] scanning on channel 20
+[20:07:39.163591 0.371822] [INFO: TSCH      ] scan: received packet (93 bytes) on channel 20
+[20:07:39.170613 0.007020] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 29 ec
+[20:07:39.180648 0.010037] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/0012.4b00.1531.f806
+[20:07:39.820461 0.639811] [INFO: TSCH      ] scanning on channel 20
+[20:07:40.854849 1.034388] [INFO: TSCH      ] scanning on channel 20
+[20:07:43.236939 2.382085] [INFO: TSCH      ] scanning on channel 20
+[20:07:43.717559 0.480629] [INFO: TSCH      ] scan: received packet (23 bytes) on channel 20
+[20:07:43.724169 0.006610] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 2, FCF 0a 2e
+[20:07:43.733449 0.009280] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x0/0000.0000.0000.0000 to 0x81a5/0012.4b00.1531.f806
+[20:07:44.256781 0.523331] [INFO: TSCH      ] scanning on channel 20
+[20:07:45.291606 1.034820] [INFO: TSCH      ] scanning on channel 20
+[20:07:46.323445 1.031840] [INFO: TSCH      ] scanning on channel 20
+[20:07:47.354071 1.030627] [INFO: TSCH      ] scanning on channel 20
+[20:07:48.384846 1.030778] [INFO: TSCH      ] scanning on channel 20
+[20:07:49.416840 1.031994] [INFO: TSCH      ] scanning on channel 20
+[20:07:50.447748 1.030907] [INFO: TSCH      ] scanning on channel 20
+[20:07:51.479700 1.031946] [INFO: TSCH      ] scanning on channel 20
+[20:07:52.510444 1.030748] [INFO: TSCH      ] scanning on channel 20
+[20:07:53.541283 1.030829] [INFO: TSCH      ] scanning on channel 20
+[20:07:54.573230 1.031960] [INFO: TSCH      ] scanning on channel 20
+[20:07:55.603982 1.030749] [INFO: TSCH      ] scanning on channel 20
+[20:07:56.635787 1.031807] [INFO: TSCH      ] scanning on channel 20
+[20:07:57.666747 1.030957] [INFO: TSCH      ] scanning on channel 20
+[20:07:58.697322 1.030568] [INFO: TSCH      ] scanning on channel 20
+[20:07:59.729474 1.032159] [INFO: TSCH      ] scanning on channel 20
+[20:08:00.760149 1.030676] [INFO: TSCH      ] scanning on channel 20
+[20:08:01.791931 1.031785] [INFO: TSCH      ] scanning on channel 20
+[20:08:02.822895 1.030959] [INFO: TSCH      ] scanning on channel 20
+[20:08:03.853409 1.030520] [INFO: TSCH      ] scanning on channel 20
+[20:08:04.885569 1.032158] [INFO: TSCH      ] scanning on channel 20
+[20:08:05.916225 1.030648] [INFO: TSCH      ] scanning on channel 20
+[20:08:06.948252 1.032036] [INFO: TSCH      ] scanning on channel 20
+[20:08:07.979158 1.030902] [INFO: TSCH      ] scanning on channel 20
+[20:08:09.009710 1.030556] [INFO: TSCH      ] scanning on channel 20
+[20:08:10.041715 1.032004] [INFO: TSCH      ] scanning on channel 20
+[20:08:11.072490 1.030776] [INFO: TSCH      ] scanning on channel 20
+[20:08:12.104417 1.031924] [INFO: TSCH      ] scanning on channel 20
+[20:08:13.135440 1.031022] [INFO: TSCH      ] scanning on channel 20
+[20:08:14.165892 1.030457] [INFO: TSCH      ] scanning on channel 20
+[20:08:15.197897 1.032004] [INFO: TSCH      ] scanning on channel 20
+[20:08:16.228736 1.030838] [INFO: TSCH      ] scanning on channel 20
+[20:08:18.830720 2.601984] [INFO: TSCH      ] scanning on channel 20
+[20:08:19.390348 0.559622] [INFO: TSCH      ] scan: received packet (104 bytes) on channel 20
+[20:08:19.400801 0.010461] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 49 e9
+[20:08:19.410870 0.010069] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/ffff.0000.0000.0000
+[20:08:19.850779 0.439907] [INFO: TSCH      ] scanning on channel 20
+[20:08:20.880368 1.029579] [INFO: TSCH      ] scanning on channel 20
+[20:08:21.910988 1.030631] [INFO: TSCH      ] scanning on channel 20
+[20:08:24.174374 2.263381] [INFO: TSCH      ] scanning on channel 20
+[20:08:25.197438 1.023067] [INFO: TSCH      ] scanning on channel 20
+[20:08:27.799524 2.602085] [INFO: TSCH      ] scanning on channel 20
+[20:08:28.822774 1.023249] [INFO: TSCH      ] scanning on channel 20
+[20:08:29.853378 1.030606] [INFO: TSCH      ] scanning on channel 20
+[20:08:30.885392 1.032013] [INFO: TSCH      ] scanning on channel 20
+[20:08:31.916265 1.030839] [INFO: TSCH      ] scanning on channel 20
+[20:08:32.946780 1.030553] [INFO: TSCH      ] scanning on channel 20
+[20:08:33.978874 1.032091] [INFO: TSCH      ] scanning on channel 20
+[20:08:35.009687 1.030812] [INFO: TSCH      ] scanning on channel 20
+[20:08:36.041610 1.031921] [INFO: TSCH      ] scanning on channel 20
+[20:08:37.072205 1.030600] [INFO: TSCH      ] scanning on channel 20
+[20:08:38.103089 1.030879] [INFO: TSCH      ] scanning on channel 20
+[20:08:38.662671 0.559584] [INFO: RPL       ] sending a DIS to ff02::1a
+[20:08:38.671757 0.009087] [WARN: TSCH      ] ! not associated, drop outgoing packet
+[20:08:39.130506 0.458747] [INFO: TSCH      ] scanning on channel 20
+[20:08:40.162390 1.031883] [INFO: TSCH      ] scanning on channel 20
+[20:08:41.191788 1.029403] [INFO: TSCH      ] scanning on channel 20
+[20:08:42.222682 1.030893] [INFO: TSCH      ] scanning on channel 20
+[20:08:43.253509 1.030826] [INFO: TSCH      ] scanning on channel 20
+[20:08:44.284205 1.030693] [INFO: TSCH      ] scanning on channel 20
+[20:08:45.322420 1.038220] [INFO: TSCH      ] scanning on channel 20
+[20:08:46.353121 1.030698] [INFO: TSCH      ] scanning on channel 20
+[20:08:47.385145 1.032026] [INFO: TSCH      ] scanning on channel 20
+[20:08:48.415963 1.030816] [INFO: TSCH      ] scanning on channel 20
+[20:08:49.446756 1.030795] [INFO: TSCH      ] scanning on channel 20
+[20:08:50.478646 1.031887] [INFO: TSCH      ] scanning on channel 20
+[20:08:51.509434 1.030790] [INFO: TSCH      ] scanning on channel 20
+[20:08:52.541336 1.031901] [INFO: TSCH      ] scanning on channel 20
+[20:08:53.572013 1.030679] [INFO: TSCH      ] scanning on channel 20
+[20:08:54.602776 1.030764] [INFO: TSCH      ] scanning on channel 20
+[20:08:57.394772 2.791995] [INFO: TSCH      ] scanning on channel 20
+[20:08:58.415647 1.020872] [INFO: TSCH      ] scanning on channel 20
+[20:08:59.447512 1.031868] [INFO: TSCH      ] scanning on channel 20
+[20:09:00.478288 1.030774] [INFO: TSCH      ] scanning on channel 20
+[20:09:01.508955 1.030670] [INFO: TSCH      ] scanning on channel 20
+[20:09:02.541137 1.032177] [INFO: TSCH      ] scanning on channel 20
+[20:09:03.571767 1.030623] [INFO: TSCH      ] scanning on channel 20
+[20:09:04.603801 1.032045] [INFO: TSCH      ] scanning on channel 20
+[20:09:05.634469 1.030669] [INFO: TSCH      ] scanning on channel 20
+[20:09:08.676518 3.042045] [INFO: TSCH      ] scanning on channel 20
+[20:09:09.697325 1.020808] [INFO: TSCH      ] scanning on channel 20
+[20:09:10.728047 1.030724] [INFO: TSCH      ] scanning on channel 20
+[20:09:11.758901 1.030843] [INFO: TSCH      ] scanning on channel 20
+[20:09:12.790791 1.031901] [INFO: TSCH      ] scanning on channel 20
+[20:09:13.821651 1.030857] [INFO: TSCH      ] scanning on channel 20
+[20:09:14.853611 1.031960] [INFO: TSCH      ] scanning on channel 20
+[20:09:15.884259 1.030651] [INFO: TSCH      ] scanning on channel 20
+[20:09:16.914877 1.030619] [INFO: TSCH      ] scanning on channel 20
+[20:09:17.946963 1.032085] [INFO: TSCH      ] scanning on channel 20
+[20:09:18.977612 1.030651] [INFO: TSCH      ] scanning on channel 20
+[20:09:20.009889 1.032273] [INFO: TSCH      ] scanning on channel 20
+[20:09:21.040454 1.030565] [INFO: TSCH      ] scanning on channel 20
+[20:09:22.071089 1.030638] [INFO: TSCH      ] scanning on channel 20
+[20:09:23.103185 1.032096] [INFO: TSCH      ] scanning on channel 20
+[20:09:24.133921 1.030733] [INFO: TSCH      ] scanning on channel 20
+[20:09:25.165832 1.031913] [INFO: TSCH      ] scanning on channel 20
+[20:09:26.196445 1.030614] [INFO: TSCH      ] scanning on channel 20
+[20:09:27.227322 1.030877] [INFO: TSCH      ] scanning on channel 20
+[20:09:28.259475 1.032147] [INFO: TSCH      ] scanning on channel 20
+[20:09:29.289937 1.030468] [INFO: TSCH      ] scanning on channel 20
+[20:09:30.321969 1.032031] [INFO: TSCH      ] scanning on channel 20
+[20:09:31.352937 1.030963] [INFO: TSCH      ] scanning on channel 20
+[20:09:32.383469 1.030538] [INFO: TSCH      ] scanning on channel 20
+[20:09:33.415621 1.032149] [INFO: TSCH      ] scanning on channel 20
+[20:09:34.446191 1.030574] [INFO: TSCH      ] scanning on channel 20
+[20:09:35.478181 1.031988] [INFO: TSCH      ] scanning on channel 20
+[20:09:36.509003 1.030822] [INFO: TSCH      ] scanning on channel 20
+[20:09:37.539697 1.030695] [INFO: TSCH      ] scanning on channel 20
+[20:09:38.571850 1.032151] [INFO: TSCH      ] scanning on channel 20
+[20:09:39.602494 1.030647] [INFO: TSCH      ] scanning on channel 20
+[20:09:40.633415 1.030917] [INFO: TSCH      ] scanning on channel 20
+[20:09:41.665388 1.031973] [INFO: TSCH      ] scanning on channel 20
+[20:09:42.696025 1.030640] [INFO: TSCH      ] scanning on channel 20
+[20:09:43.728075 1.032049] [INFO: TSCH      ] scanning on channel 20
+[20:09:44.758788 1.030714] [INFO: TSCH      ] scanning on channel 20
+[20:09:45.789612 1.030822] [INFO: TSCH      ] scanning on channel 20
+[20:09:46.821547 1.031930] [INFO: TSCH      ] scanning on channel 20
+[20:09:47.852312 1.030768] [INFO: TSCH      ] scanning on channel 20
+[20:09:48.884519 1.032207] [INFO: TSCH      ] scanning on channel 20
+[20:09:49.915212 1.030694] [INFO: TSCH      ] scanning on channel 20
+[20:09:50.945803 1.030594] [INFO: TSCH      ] scanning on channel 20
+[20:09:51.977833 1.032029] [INFO: TSCH      ] scanning on channel 20
+[20:09:53.008551 1.030718] [INFO: TSCH      ] scanning on channel 20
+[20:09:54.040608 1.032057] [INFO: TSCH      ] scanning on channel 20
+[20:09:55.071214 1.030607] [INFO: TSCH      ] scanning on channel 20
+[20:09:56.102108 1.030893] [INFO: TSCH      ] scanning on channel 20
+[20:09:57.134185 1.032074] [INFO: TSCH      ] scanning on channel 20
+[20:09:58.164912 1.030728] [INFO: TSCH      ] scanning on channel 20
+[20:09:59.195493 1.030585] [INFO: TSCH      ] scanning on channel 20
+[20:10:00.227560 1.032062] [INFO: TSCH      ] scanning on channel 20
+[20:10:01.258491 1.030931] [INFO: TSCH      ] scanning on channel 20
+[20:10:02.290392 1.031901] [INFO: TSCH      ] scanning on channel 20
+[20:10:03.320933 1.030544] [INFO: TSCH      ] scanning on channel 20
+[20:10:04.351589 1.030657] [INFO: TSCH      ] scanning on channel 20
+[20:10:05.383793 1.032201] [INFO: TSCH      ] scanning on channel 20
+[20:10:06.414490 1.030696] [INFO: TSCH      ] scanning on channel 20
+[20:10:07.446512 1.032025] [INFO: TSCH      ] scanning on channel 20
+[20:10:08.477178 1.030667] [INFO: TSCH      ] scanning on channel 20
+[20:10:09.509304 1.032123] [INFO: TSCH      ] scanning on channel 20
+[20:10:10.540082 1.030777] [INFO: TSCH      ] scanning on channel 20
+[20:10:11.570755 1.030676] [INFO: TSCH      ] scanning on channel 20
+[20:10:12.602631 1.031874] [INFO: TSCH      ] scanning on channel 20
+[20:10:13.633420 1.030789] [INFO: TSCH      ] scanning on channel 20
+[20:10:14.663971 1.030555] [INFO: TSCH      ] scanning on channel 20
+[20:10:15.696102 1.032130] [INFO: TSCH      ] scanning on channel 20
+[20:10:16.726851 1.030748] [INFO: TSCH      ] scanning on channel 20
+[20:10:17.758798 1.031946] [INFO: TSCH      ] scanning on channel 20
+[20:10:18.309603 0.550803] [INFO: TSCH      ] scan: received packet (129 bytes) on channel 20
+[20:10:18.321194 0.011593] [INFO: TSCH Pkt  ] ! parse_eb: frame is not a valid TSCH beacon. Frame version 2, type 1, FCF 29 ec
+[20:10:18.330893 0.009702] [INFO: TSCH Pkt  ] ! parse_eb: frame was from 0x81a5/0012.4b00.1532.af06 to 0x81a5/0012.4b00.1531.f806
+[20:10:18.785059 0.454161] [INFO: TSCH      ] scanning on channel 20
+[20:10:19.815606 1.030551] [INFO: TSCH      ] scanning on channel 20
+[20:10:19.871555 0.055946] [INFO: App       ] Reachable: 0, getIP: 0, actual ip: ::d405:20:4c41:20[INFO: App       ] 
+[20:10:19.881662 0.010111] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:10:19.886772 0.005110] [INFO: App       ] 
+[20:10:19.888818 0.002045] Energest:
+[20:10:19.889940 0.001123] [INFO: App       ]  Radio LISTEN 19658924 TRANSMIT 0 OFF      5722 TOTAL: 19664646
+[20:10:19.897800 0.007860] [INFO: App       ] Total time: 5 minutes, 0 seconds, 65536 ticks pr sec
+[20:10:20.851855 0.954051] [INFO: TSCH      ] scanning on channel 20
+[20:10:21.883802 1.031947] [INFO: TSCH      ] scanning on channel 20
+[20:10:22.914810 1.031006] [INFO: TSCH      ] scanning on channel 20
+[20:10:23.945167 1.030362] [INFO: TSCH      ] scanning on channel 20
+[20:10:24.977360 1.032193] [INFO: TSCH      ] scanning on channel 20
+[20:10:26.008190 1.030826] [INFO: TSCH      ] scanning on channel 20
+[20:10:28.547795 2.539605] [INFO: TSCH      ] scanning on channel 20
+[20:10:29.571234 1.023438] [INFO: TSCH      ] scanning on channel 20
+[20:10:30.772833 1.201603] [INFO: TSCH      ] scan: received packet (45 bytes) on channel 20
+[20:10:30.779496 0.006666] [INFO: TSCH      ] parse_eb: no schedule
+[20:10:30.783498 0.004000] [INFO: TSCH Queue] update time source: (NULL LL addr) -> 0012.4b00.1532.af06
+[20:10:30.791181 0.007682] [INFO: TSCH Sched] add_link sf=0 opt=Rx type=ADV_ONLY ts=6 ch=0 addr=ffff.ffff.ffff.ffff
+[20:10:30.799755 0.008575] [INFO: TSCH      ] association done (1), sec 1, PAN ID 81a5, asn-0.39e, jp 2, timeslot id 0, hopping id 0, slotframe len 0 with 0 links, from 0012.4b00.1532.af06
+[20:10:46.478584 15.678825] [INFO: RPL       ] sending a DIS to ff02::1a
+[20:10:46.483587 0.005002] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 125, queue 1 1, len 20 30
+[20:10:53.134601 6.651020] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 240, status 0, tx 1
+[20:10:53.142595 0.007994] [INFO: TSCH-LOG  ] {asn 00.000003de link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len  30, seq 240, st 0  1
+[20:12:03.831932 70.689336] [INFO: RPL       ] sending a DIS to ff02::1a
+[20:12:03.840676 0.008741] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 125, queue 1 1, len 20 30
+[20:12:06.214031 2.373358] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 241, status 0, tx 1
+[20:12:06.236110 0.022080] [INFO: TSCH-LOG  ] {asn 00.000004af link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len  30, seq 241, st 0  1
+[20:12:07.278623 1.042508] [INFO: TSCH-LOG  ] {asn 00.000004b2 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq   0, edr  48, dr -48
+[20:12:29.395853 22.117231] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 65535
+[20:12:29.405899 0.010046] [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 334
+[20:12:29.420080 0.014184] [INFO: RPL       ] adding global IP address fd00::212:4b00:f29:a804
+[20:12:29.426410 0.006332] [INFO: RPL       ] reset MRHOF
+[20:12:29.429402 0.002991] [INFO: RPL       ] initialized DAG with instance ID 0, DAG ID fd00::212:4b00:1531:f806, prexix fd00::/64, rank 65535
+[20:12:29.440177 0.010775] [WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+[20:12:29.446788 0.006611] [INFO: RPL       ] refreshing lifetime
+[20:12:29.450465 0.003677] [INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1532:af06
+[20:12:29.459291 0.008826] [INFO: TSCH-LOG  ] {asn 00.000004f1 link  1  13   0  4  1 ch 20} drift -6 ppm (min/max delta seen: -48/0)
+[20:12:29.469080 0.009788] [INFO: TSCH-LOG  ] {asn 00.000004f1 link  1  13   0  4  1 ch 20} bc-1-5 rx LL-af06->LL-NULL, len 100, seq   0, edr  10, dr -10
+[20:12:30.636997 1.167917] [INFO: RPL       ] probing fe80::212:4b00:1532:af06 (urgent) last tx 7 min ago
+[20:12:30.644812 0.007817] [INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1532:af06
+[20:12:30.652529 0.007716] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 126, queue 1 1, len 27 106
+[20:12:34.720983 4.068453] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 126, status 0, tx 1
+[20:12:34.728994 0.008009] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 320
+[20:12:34.736901 0.007910] [INFO: TSCH-LOG  ] {asn 00.00000500 link  1  13   0  6  1 ch 20} drift -3 ppm (min/max delta seen: -48/0)
+[20:12:34.745996 0.009094] [INFO: TSCH-LOG  ] {asn 00.00000500 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 106, seq 126, st 0  1, dr   2
+[20:12:34.757393 0.011390] [INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1532:af06
+[20:12:38.136526 3.379136] [INFO: RPL       ] probing fe80::212:4b00:1532:af06 (urgent) last tx 0 min ago
+[20:12:38.152037 0.015515] [INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1532:af06
+[20:12:38.160356 0.008319] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 127, queue 1 1, len 27 106
+[20:12:39.266826 1.106467] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 127, status 0, tx 1
+[20:12:39.280284 0.013461] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 272
+[20:12:39.288599 0.008316] [INFO: TSCH-LOG  ] {asn 00.0000050d link  1  13   0  6  1 ch 20} drift 0 ppm (min/max delta seen: -48/2)
+[20:12:39.298350 0.009751] [INFO: TSCH-LOG  ] {asn 00.0000050d link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 106, seq 127, st 0  1, dr   4
+[20:12:39.309842 0.011491] [INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1532:af06
+[20:12:39.447179 0.137334] [INFO: TSCH-LOG  ] {asn 00.0000050e link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq   0, edr   2, dr  -2
+[20:12:40.939070 1.491894] [INFO: RPL       ] probing fe80::212:4b00:1532:af06 (urgent) last tx 0 min ago
+[20:12:40.947452 0.008381] [INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1532:af06
+[20:12:40.955678 0.008228] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 128, queue 1 1, len 27 106
+[20:12:43.811975 2.856293] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 128, status 0, tx 1
+[20:12:43.821311 0.009341] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 236
+[20:12:43.829720 0.008409] [INFO: TSCH-LOG  ] {asn 00.0000051a link  1  13   0  6  1 ch 20} drift -1 ppm (min/max delta seen: -48/4)
+[20:12:43.839340 0.009620] [INFO: TSCH-LOG  ] {asn 00.0000051a link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 106, seq 128, st 0  1, dr   0
+[20:12:43.850781 0.011437] [INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1532:af06
+[20:12:45.875962 2.025179] [INFO: RPL       ] probing fe80::212:4b00:1532:af06 (urgent) last tx 0 min ago
+[20:12:45.886862 0.010904] [INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::212:4b00:1532:af06
+[20:12:45.894657 0.007796] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 129, queue 1 1, len 27 106
+[20:12:48.357390 2.462729] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 129, status 0, tx 1
+[20:12:48.365419 0.008032] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 225
+[20:12:48.373580 0.008161] [INFO: TSCH-LOG  ] {asn 00.00000527 link  1  13   0  6  1 ch 20} drift -2 ppm (min/max delta seen: -48/4)
+[20:12:48.384376 0.010796] [INFO: TSCH-LOG  ] {asn 00.00000527 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 106, seq 129, st 0  1, dr  -2
+[20:12:48.395730 0.011355] [INFO: RPL       ] parent switch: (NULL IP addr) -> fe80::212:4b00:1532:af06
+[20:12:48.402642 0.006910] [WARN: RPL       ] found parent: fe80::212:4b00:1532:af06, staying in DAG
+[20:12:48.409292 0.006653] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: joined, MOP 1 OCP 1 rank 559 max-rank 1583, dioint 15, nbr count 1 (Parent switch)
+[20:12:48.423327 0.014033] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  334,   225 =>   559 --  4  bafp (last tx 0 min ago)
+[20:12:48.432510 0.009183] [INFO: RPL       ] nbr: end of list
+[20:12:53.203426 4.770915] [INFO: RPL       ] sending a DAO seqno 241, tx count 1, lifetime 30, prefix fd00::212:4b00:f29:a804 to fd00::212:4b00:1531:f806, parent fe80::212:4b00:1532:af06
+[20:12:53.218701 0.015276] [INFO: RPL       ] creating hop-by-hop option
+[20:12:53.222925 0.004225] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 130, queue 1 1, len 27 97
+[20:12:56.748226 3.525297] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 169
+[20:12:56.755518 0.007284] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 334
+[20:12:56.771223 0.015716] [INFO: RPL       ] refreshing lifetime
+[20:12:56.775442 0.004221] [INFO: TSCH-LOG  ] {asn 00.0000053f link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/4)
+[20:12:56.786130 0.010687] [INFO: TSCH-LOG  ] {asn 00.0000053f link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 169, edr   6, dr  -6
+[20:12:57.433538 0.647402] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 130, status 0, tx 1
+[20:12:57.445187 0.011654] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 215
+[20:12:57.454803 0.009615] [INFO: TSCH-LOG  ] {asn 00.00000541 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len  97, seq 130, st 0  1, dr   4
+[20:13:10.323158 12.868341] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 171
+[20:13:10.329908 0.006765] [INFO: RPL       ] received a DAO-ACK with seqno 241 (241 241) and status 0 from fd00::212:4b00:1531:f806
+[20:13:10.339206 0.009298] [INFO: RPL       ] reset DIO timer (Reachable)
+[20:13:10.343798 0.004593] [INFO: TSCH-LOG  ] {asn 00.00000566 link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/4)
+[20:13:10.353790 0.009992] [INFO: TSCH-LOG  ] {asn 00.00000566 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len  64, seq 171, edr   2, dr  -2
+[20:13:11.616551 1.262760] [INFO: TSCH-LOG  ] {asn 00.0000056a link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 171, edr  -6, dr   6
+[20:13:19.584879 7.968328] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 549 max-rank 1573, dioint 15, nbr count 1 (Periodic)
+[20:13:19.599870 0.014991] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  334,   215 =>   549 --  5  bafp (last tx 0 min ago)
+[20:13:19.609943 0.010072] [INFO: RPL       ] nbr: end of list
+[20:13:34.782133 15.172191] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 65535
+[20:13:34.789130 0.006998] [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 326
+[20:13:34.803322 0.014191] [INFO: RPL       ] refreshing lifetime
+[20:13:34.806917 0.003596] [INFO: TSCH-LOG  ] {asn 00.000005ac link  2  11   0  0  2 ch 20} drift -4 ppm (min/max delta seen: -48/6)
+[20:13:34.816652 0.009734] [INFO: TSCH-LOG  ] {asn 00.000005ac link  2  11   0  0  2 ch 20} bc-1-5 rx LL-af06->LL-NULL, len 100, seq 171, edr   4, dr  -4
+[20:13:40.725174 5.908521] [INFO: RPL       ] sending a multicast-DIO with rank 541 to ff02::1a
+[20:13:40.737421 0.012249] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 130, queue 1 1, len 20 100
+[20:13:42.471391 1.733968] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 242, status 0, tx 1
+[20:13:42.478931 0.007532] [INFO: TSCH-LOG  ] {asn 00.000005c2 link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len 100, seq 242, st 0  1
+[20:13:55.839686 13.360761] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 172
+[20:13:55.851684 0.012002] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 326
+[20:13:55.865296 0.013611] [INFO: RPL       ] refreshing lifetime
+[20:13:55.868923 0.003629] [INFO: TSCH-LOG  ] {asn 00.000005e8 link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/6)
+[20:13:55.878771 0.009845] [INFO: TSCH-LOG  ] {asn 00.000005e8 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 172, edr   6, dr  -6
+[20:14:07.911204 12.032430] [INFO: TSCH-LOG  ] {asn 00.0000060b link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/6)
+[20:14:07.926964 0.015765] [INFO: TSCH-LOG  ] {asn 00.0000060b link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 172, edr  -4, dr   4
+[20:14:19.576137 11.649172] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 541 max-rank 1565, dioint 16, nbr count 1 (Periodic)
+[20:14:19.591684 0.015547] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  326,   215 =>   541 --  5  bafp (last tx 1 min ago)
+[20:14:19.601500 0.009816] [INFO: RPL       ] nbr: end of list
+[20:14:27.952264 8.350760] [INFO: RPL       ] sending a multicast-DIO with rank 541 to ff02::1a
+[20:14:27.962377 0.010119] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 130, queue 1 1, len 20 100
+[20:14:28.626234 0.663851] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 243, status 0, tx 1
+[20:14:28.640018 0.013788] [INFO: TSCH-LOG  ] {asn 00.00000646 link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len 100, seq 243, st 0  1
+[20:14:33.570379 4.930361] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:14:39.377646 5.807263] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 244, status 0, tx 1
+[20:14:39.393482 0.015840] [INFO: TSCH-LOG  ] {asn 00.00000665 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq 244, st 0  1
+[20:14:55.893231 16.499748] [INFO: RPL       ] no neighbor needs probing
+[20:15:19.576383 23.683153] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 541 max-rank 1565, dioint 17, nbr count 1 (Periodic)
+[20:15:19.591603 0.015220] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  326,   215 =>   541 --  5  bafp (last tx 2 min ago)
+[20:15:19.601134 0.009532] [INFO: RPL       ] nbr: end of list
+[20:15:19.894886 0.293750] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:15:19.900944 0.006060] [INFO: RPL       ] creating hop-by-hop option
+[20:15:19.906152 0.005199] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 131, queue 1 1, len 27 133
+[20:15:19.915656 0.009511] [INFO: App       ] Sent checksum 204 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:15:19.925256 0.009602] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:15:19.930234 0.004978] [INFO: App       ] 
+[20:15:19.932251 0.002016] Energest:
+[20:15:19.933348 0.001098] [INFO: App       ]  Radio LISTEN 20686468 TRANSMIT 106856 OFF      18535240 TOTAL: 39328564
+[20:15:19.941745 0.008397] [INFO: App       ] Total time: 0 minutes, 0 seconds, 65536 ticks pr sec
+[20:15:22.947343 3.005596] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 131, status 0, tx 1
+[20:15:22.955339 0.007997] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 206
+[20:15:22.963614 0.008275] [INFO: TSCH-LOG  ] {asn 00.000006e1 link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/6)
+[20:15:22.973287 0.009673] [INFO: TSCH-LOG  ] {asn 00.000006e1 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 131, st 0  1, dr   0
+[20:15:30.168775 7.195483] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 65535
+[20:15:30.181100 0.012330] [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 312
+[20:15:30.195438 0.014338] [INFO: RPL       ] refreshing lifetime
+[20:15:30.198995 0.003559] [INFO: TSCH-LOG  ] {asn 00.000006f6 link  2  11   0  0  2 ch 20} drift -5 ppm (min/max delta seen: -48/6)
+[20:15:30.208784 0.009788] [INFO: TSCH-LOG  ] {asn 00.000006f6 link  2  11   0  0  2 ch 20} bc-1-5 rx LL-af06->LL-NULL, len 100, seq 172, edr   0, dr   0
+[20:15:35.841670 5.632882] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 175
+[20:15:35.853208 0.011541] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 312
+[20:15:35.867540 0.014314] [INFO: RPL       ] refreshing lifetime
+[20:15:35.871297 0.003776] [INFO: TSCH-LOG  ] {asn 00.00000706 link  1  13   0  4  1 ch 20} drift -5 ppm (min/max delta seen: -48/6)
+[20:15:35.881275 0.009978] [INFO: TSCH-LOG  ] {asn 00.00000706 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 175, edr   2, dr  -2
+[20:15:36.560654 0.679374] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:15:43.715273 7.154619] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 245, status 0, tx 1
+[20:15:43.730173 0.014899] [INFO: TSCH-LOG  ] {asn 00.0000071d link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq 245, st 0  1
+[20:15:47.960831 4.230662] [INFO: RPL       ] no neighbor needs probing
+[20:16:00.500450 12.539619] [INFO: TSCH-LOG  ] {asn 00.0000074d link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/6)
+[20:16:00.512105 0.011652] [INFO: TSCH-LOG  ] {asn 00.0000074d link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 175, edr  -4, dr   4
+[20:16:19.579151 19.067049] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 518 max-rank 1542, dioint 17, nbr count 1 (Periodic)
+[20:16:19.594309 0.015159] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  312,   206 =>   518 --  6  bafp (last tx 0 min ago)
+[20:16:19.604252 0.009943] [INFO: RPL       ] nbr: end of list
+[20:16:44.822790 25.218534] [INFO: RPL       ] sending a multicast-DIO with rank 518 to ff02::1a
+[20:16:44.835720 0.012934] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 131, queue 1 1, len 20 100
+[20:16:47.090334 2.254610] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 246, status 0, tx 1
+[20:16:47.104313 0.013983] [INFO: TSCH-LOG  ] {asn 00.000007d2 link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len 100, seq 246, st 0  1
+[20:16:52.228498 5.124180] [INFO: RPL       ] no neighbor needs probing
+[20:17:19.579124 27.350630] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 518 max-rank 1542, dioint 18, nbr count 1 (Periodic)
+[20:17:19.594251 0.015124] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  312,   206 =>   518 --  6  bafp (last tx 1 min ago)
+[20:17:19.604199 0.009953] [INFO: RPL       ] nbr: end of list
+[20:17:42.252647 22.648447] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:17:44.347147 2.094500] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 247, status 0, tx 1
+[20:17:44.354984 0.007838] [INFO: TSCH-LOG  ] {asn 00.00000876 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq 247, st 0  1
+[20:18:09.174235 24.819237] [INFO: TSCH-LOG  ] {asn 00.000008bd link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/6)
+[20:18:09.190918 0.016696] [INFO: TSCH-LOG  ] {asn 00.000008bd link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 175, edr   2, dr  -2
+[20:18:19.571869 10.380947] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 518 max-rank 1542, dioint 18, nbr count 1 (Periodic)
+[20:18:19.592533 0.020668] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  312,   206 =>   518 --  6  bafp (last tx 2 min ago)
+[20:18:19.601935 0.009402] [INFO: RPL       ] nbr: end of list
+[20:18:42.480394 22.878459] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 65535
+[20:18:42.487145 0.006751] [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 312
+[20:18:42.501882 0.014738] [INFO: RPL       ] refreshing lifetime
+[20:18:42.505767 0.003885] [INFO: TSCH-LOG  ] {asn 00.0000091c link  2  11   0  0  2 ch 20} drift -5 ppm (min/max delta seen: -48/6)
+[20:18:42.515929 0.010162] [INFO: TSCH-LOG  ] {asn 00.0000091c link  2  11   0  0  2 ch 20} bc-1-5 rx LL-af06->LL-NULL, len 100, seq 175, edr   4, dr  -4
+[20:18:44.003599 1.487665] [INFO: RPL       ] no neighbor needs probing
+[20:19:19.574082 35.570486] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 518 max-rank 1542, dioint 18, nbr count 1 (Periodic)
+[20:19:19.590084 0.016003] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  312,   206 =>   518 --  6  bafp (last tx 3 min ago)
+[20:19:19.599923 0.009839] [INFO: RPL       ] nbr: end of list
+[20:19:36.132705 16.532770] [INFO: RPL       ] no neighbor needs probing
+[20:19:52.147455 16.014748] [INFO: RPL       ] sending a multicast-DIO with rank 518 to ff02::1a
+[20:19:52.160504 0.013062] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 131, queue 1 1, len 20 100
+[20:19:55.554919 3.394416] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 248, status 0, tx 1
+[20:19:55.563032 0.008114] [INFO: TSCH-LOG  ] {asn 00.000009ed link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len 100, seq 248, st 0  1
+[20:20:19.574426 24.011392] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 518 max-rank 1542, dioint 18, nbr count 1 (Periodic)
+[20:20:19.589250 0.014825] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  312,   206 =>   518 --  6  bafp (last tx 4 min ago)
+[20:20:19.599015 0.009765] [INFO: RPL       ] nbr: end of list
+[20:20:19.892962 0.293946] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:20:19.899280 0.006318] [INFO: RPL       ] creating hop-by-hop option
+[20:20:19.903916 0.004638] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 132, queue 1 1, len 27 133
+[20:20:19.913842 0.009922] [INFO: App       ] Sent checksum 19 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:20:19.924113 0.010274] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:20:19.929522 0.005409] [INFO: App       ] 
+[20:20:19.932364 0.002843] Energest:
+[20:20:19.933738 0.001375] [INFO: App       ]  Radio LISTEN 20968926 TRANSMIT 158832 OFF      37861778 TOTAL: 58989536
+[20:20:19.942699 0.008959] [INFO: App       ] Total time: 5 minutes, 0 seconds, 65536 ticks pr sec
+[20:20:22.211699 2.268996] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 177
+[20:20:22.220639 0.008945] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 306
+[20:20:22.234636 0.013997] [INFO: RPL       ] refreshing lifetime
+[20:20:22.238404 0.003769] [INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::212:4b00:1532:af06
+[20:20:22.247393 0.008988] [INFO: TSCH-LOG  ] {asn 00.00000a39 link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/6)
+[20:20:22.257158 0.009765] [INFO: TSCH-LOG  ] {asn 00.00000a39 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 177, edr   0, dr   0
+[20:20:22.952038 0.694880] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 132, status 0, tx 1
+[20:20:22.959942 0.007903] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 198
+[20:20:22.967988 0.008047] [INFO: TSCH-LOG  ] {asn 00.00000a3b link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 132, st 0  1, dr  12
+[20:20:23.079427 0.111434] [INFO: RPL       ] no neighbor needs probing
+[20:21:10.383888 47.304461] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:21:13.442179 3.058294] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 249, status 0, tx 1
+[20:21:13.450127 0.007950] [INFO: TSCH-LOG  ] {asn 00.00000acc link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq 249, st 0  1
+[20:21:19.569031 6.118903] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 504 max-rank 1528, dioint 18, nbr count 1 (Periodic)
+[20:21:19.584145 0.015115] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  306,   198 =>   504 --  4  bafp (last tx 0 min ago)
+[20:21:19.593832 0.009687] [INFO: RPL       ] nbr: end of list
+[20:21:40.563674 20.969841] [INFO: RPL       ] no neighbor needs probing
+[20:22:18.479627 37.915948] [INFO: TSCH-LOG  ] {asn 00.00000b86 link  0  23   0  6  0 ch 20} drift -5 ppm (min/max delta seen: -48/12)
+[20:22:18.493328 0.013707] [INFO: TSCH-LOG  ] {asn 00.00000b86 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 177, edr  -4, dr   4
+[20:22:19.569542 1.076213] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 504 max-rank 1528, dioint 19, nbr count 1 (Periodic)
+[20:22:19.585838 0.016296] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  306,   198 =>   504 --  4  bafp (last tx 1 min ago)
+[20:22:19.595655 0.009818] [INFO: RPL       ] nbr: end of list
+[20:22:24.940618 5.344948] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 179
+[20:22:24.950259 0.009656] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 301
+[20:22:24.964945 0.014685] [INFO: RPL       ] refreshing lifetime
+[20:22:24.968817 0.003873] [INFO: TSCH-LOG  ] {asn 00.00000b98 link  1  13   0  4  1 ch 20} drift -5 ppm (min/max delta seen: -48/12)
+[20:22:24.979175 0.010358] [INFO: TSCH-LOG  ] {asn 00.00000b98 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 179, edr   2, dr  -2
+[20:22:38.187053 13.207877] [INFO: RPL       ] no neighbor needs probing
+[20:23:19.569082 41.382025] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1523, dioint 19, nbr count 1 (Periodic)
+[20:23:19.584807 0.015729] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   198 =>   499 --  4  bafp (last tx 2 min ago)
+[20:23:19.594519 0.009714] [INFO: RPL       ] nbr: end of list
+[20:24:13.014925 53.420401] [INFO: RPL       ] no neighbor needs probing
+[20:24:19.572064 6.557138] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1523, dioint 19, nbr count 1 (Periodic)
+[20:24:19.592742 0.020682] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   198 =>   499 --  4  bafp (last tx 3 min ago)
+[20:24:19.602351 0.009611] [INFO: RPL       ] nbr: end of list
+[20:25:16.161841 56.559484] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:25:18.641414 2.479576] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 65535
+[20:25:18.648876 0.007462] [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 301
+[20:25:18.664809 0.015934] [INFO: RPL       ] refreshing lifetime
+[20:25:18.668725 0.003916] [INFO: TSCH-LOG  ] {asn 00.00000d89 link  2  11   0  0  2 ch 20} drift -6 ppm (min/max delta seen: -48/12)
+[20:25:18.679310 0.010585] [INFO: TSCH-LOG  ] {asn 00.00000d89 link  2  11   0  0  2 ch 20} bc-1-5 rx LL-af06->LL-NULL, len 100, seq 179, edr -12, dr  12
+[20:25:19.573105 0.893795] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1523, dioint 19, nbr count 1 (Periodic)
+[20:25:19.588330 0.015225] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   198 =>   499 --  4  bafp (last tx 4 min ago)
+[20:25:19.597590 0.009258] [INFO: RPL       ] nbr: end of list
+[20:25:19.937999 0.340407] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:25:19.948205 0.010211] [INFO: RPL       ] creating hop-by-hop option
+[20:25:19.952472 0.004267] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 133, queue 1 2, len 27 133
+[20:25:19.960841 0.008370] [INFO: App       ] Sent checksum 143 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:25:19.969821 0.008979] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:25:19.974721 0.004900] [INFO: App       ] 
+[20:25:19.976830 0.002110] Energest:
+[20:25:19.977980 0.001149] [INFO: App       ]  Radio LISTEN 21248700 TRANSMIT 186212 OFF      57218696 TOTAL: 78653608
+[20:25:19.986417 0.008437] [INFO: App       ] Total time: 10 minutes, 0 seconds, 65536 ticks pr sec
+[20:25:22.746607 2.760188] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 250, status 0, tx 1
+[20:25:22.760133 0.013527] [INFO: TSCH-LOG  ] {asn 00.00000d95 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq 250, st 0  1
+[20:25:27.503794 4.743658] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 133, status 0, tx 1
+[20:25:27.517638 0.013845] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 191
+[20:25:27.527021 0.009386] [INFO: TSCH-LOG  ] {asn 00.00000da2 link  1  13   0  6  1 ch 20} drift -2 ppm (min/max delta seen: -48/12)
+[20:25:27.537424 0.010402] [INFO: TSCH-LOG  ] {asn 00.00000da2 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 133, st 0  1, dr  12
+[20:25:42.448995 14.911566] [INFO: RPL       ] no neighbor needs probing
+[20:26:19.567307 37.118313] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 492 max-rank 1516, dioint 19, nbr count 1 (Periodic)
+[20:26:19.589188 0.021886] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   191 =>   492 --  5  bafp (last tx 0 min ago)
+[20:26:19.598602 0.009413] [INFO: RPL       ] nbr: end of list
+[20:27:00.865527 41.266925] [INFO: RPL       ] sending a multicast-DIO with rank 492 to ff02::1a
+[20:27:00.872584 0.007058] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 133, queue 1 1, len 20 100
+[20:27:02.486914 1.614328] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 251, status 0, tx 1
+[20:27:02.501895 0.014976] [INFO: TSCH-LOG  ] {asn 00.00000eb2 link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len 100, seq 251, st 0  1
+[20:27:19.567645 17.065753] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 492 max-rank 1516, dioint 19, nbr count 1 (Periodic)
+[20:27:19.590523 0.022881] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   191 =>   492 --  5  bafp (last tx 1 min ago)
+[20:27:19.602933 0.012410] [INFO: RPL       ] nbr: end of list
+[20:27:24.081168 4.478231] [INFO: TSCH-LOG  ] {asn 00.00000ef0 link  0  23   0  6  0 ch 20} drift -2 ppm (min/max delta seen: -48/12)
+[20:27:24.097672 0.016505] [INFO: TSCH-LOG  ] {asn 00.00000ef0 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 179, edr   0, dr   0
+[20:27:38.114761 14.017092] [INFO: RPL       ] no neighbor needs probing
+[20:28:19.568060 41.453296] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 492 max-rank 1516, dioint 19, nbr count 1 (Periodic)
+[20:28:19.583805 0.015746] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   191 =>   492 --  5  bafp (last tx 2 min ago)
+[20:28:19.594065 0.010262] [INFO: RPL       ] nbr: end of list
+[20:29:19.562678 59.968612] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 492 max-rank 1516, dioint 19, nbr count 1 (Periodic)
+[20:29:19.583705 0.021029] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   191 =>   492 --  5  bafp (last tx 3 min ago)
+[20:29:19.593322 0.009615] [INFO: RPL       ] nbr: end of list
+[20:29:20.089866 0.496543] [INFO: RPL       ] no neighbor needs probing
+[20:30:19.563152 59.473287] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 492 max-rank 1516, dioint 20, nbr count 1 (Periodic)
+[20:30:19.578275 0.015105] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   191 =>   492 --  5  bafp (last tx 4 min ago)
+[20:30:19.587992 0.009737] [INFO: RPL       ] nbr: end of list
+[20:30:19.982874 0.394881] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:30:19.989005 0.006131] [INFO: RPL       ] creating hop-by-hop option
+[20:30:19.993631 0.004626] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 134, queue 1 1, len 27 133
+[20:30:20.002451 0.008821] [INFO: App       ] Sent checksum 6 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:30:20.011618 0.009167] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:30:20.016849 0.005230] [INFO: App       ] 
+[20:30:20.018965 0.002117] Energest:
+[20:30:20.020164 0.001200] [INFO: App       ]  Radio LISTEN 21494112 TRANSMIT 217736 OFF      76605850 TOTAL: 98317698
+[20:30:20.028816 0.008651] [INFO: App       ] Total time: 15 minutes, 0 seconds, 65536 ticks pr sec
+[20:30:22.965455 2.936633] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 134, status 0, tx 1
+[20:30:22.980188 0.014738] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 184
+[20:30:22.990367 0.010178] [INFO: TSCH-LOG  ] {asn 00.000010ef link  1  13   0  6  1 ch 20} drift -2 ppm (min/max delta seen: -48/12)
+[20:30:23.003981 0.013616] [INFO: TSCH-LOG  ] {asn 00.000010ef link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 134, st 0  1, dr -26
+[20:30:33.493121 10.489139] [INFO: RPL       ] no neighbor needs probing
+[20:31:19.565080 46.071959] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 485 max-rank 1509, dioint 20, nbr count 1 (Periodic)
+[20:31:19.586118 0.021038] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   184 =>   485 --  6  bafp (last tx 0 min ago)
+[20:31:19.595823 0.009705] [INFO: RPL       ] nbr: end of list
+[20:31:25.934962 6.339134] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:31:32.684322 6.749360] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 252, status 0, tx 1
+[20:31:32.692590 0.008274] [INFO: TSCH-LOG  ] {asn 00.000011b7 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq 252, st 0  1
+[20:32:19.557519 46.864927] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 485 max-rank 1509, dioint 20, nbr count 1 (Periodic)
+[20:32:19.573419 0.015901] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   184 =>   485 --  6  bafp (last tx 1 min ago)
+[20:32:19.583857 0.010436] [INFO: RPL       ] nbr: end of list
+[20:32:33.907479 14.323621] [INFO: RPL       ] no neighbor needs probing
+[20:33:19.558346 45.650866] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 485 max-rank 1509, dioint 20, nbr count 1 (Periodic)
+[20:33:19.578752 0.020409] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  301,   184 =>   485 --  6  bafp (last tx 2 min ago)
+[20:33:19.588358 0.009608] [INFO: RPL       ] nbr: end of list
+[20:33:24.044333 4.455969] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 185
+[20:33:24.056377 0.012050] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 281
+[20:33:24.070430 0.014053] [INFO: RPL       ] refreshing lifetime
+[20:33:24.074246 0.003814] [INFO: TSCH-LOG  ] {asn 00.000012f5 link  1  13   0  4  1 ch 20} drift -2 ppm (min/max delta seen: -48/12)
+[20:33:24.084299 0.010054] [INFO: TSCH-LOG  ] {asn 00.000012f5 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 185, edr  24, dr -24
+[20:33:25.975849 1.891544] [INFO: TSCH-LOG  ] {asn 00.000012fb link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 185, edr  -4, dr   4
+[20:33:51.045184 25.069341] [INFO: RPL       ] no neighbor needs probing
+[20:34:19.561044 28.515857] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 465 max-rank 1489, dioint 20, nbr count 1 (Periodic)
+[20:34:19.584271 0.023230] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  281,   184 =>   465 --  6  bafp (last tx 3 min ago)
+[20:34:19.593795 0.009524] [INFO: RPL       ] nbr: end of list
+[20:34:38.830782 19.236982] [INFO: RPL       ] no neighbor needs probing
+[20:35:19.561577 40.730796] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 465 max-rank 1489, dioint 20, nbr count 1 (Periodic)
+[20:35:19.582547 0.020974] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  281,   184 =>   465 --  6  bafp (last tx 4 min ago)
+[20:35:19.592204 0.009658] [INFO: RPL       ] nbr: end of list
+[20:35:19.981267 0.389058] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:35:19.990822 0.009561] [INFO: RPL       ] creating hop-by-hop option
+[20:35:19.995684 0.004860] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 135, queue 1 1, len 27 133
+[20:35:20.004582 0.008900] [INFO: App       ] Sent checksum 120 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:35:20.013883 0.009300] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:35:20.019066 0.005183] [INFO: App       ] 
+[20:35:20.021214 0.002149] Energest:
+[20:35:20.022272 0.001058] [INFO: App       ]  Radio LISTEN 21753542 TRANSMIT 241542 OFF      95983602 TOTAL: 117978686
+[20:35:20.031196 0.008923] [INFO: App       ] Total time: 20 minutes, 0 seconds, 65536 ticks pr sec
+[20:35:22.969721 2.938524] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 135, status 0, tx 1
+[20:35:22.977769 0.008049] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 178
+[20:35:22.986452 0.008683] [INFO: TSCH-LOG  ] {asn 00.00001449 link  1  13   0  6  1 ch 20} drift -2 ppm (min/max delta seen: -48/12)
+[20:35:22.996511 0.010060] [INFO: TSCH-LOG  ] {asn 00.00001449 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 135, st 0  1, dr -12
+[20:35:58.592322 35.595809] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 188
+[20:35:58.599128 0.006805] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 275
+[20:35:58.613961 0.014834] [INFO: RPL       ] refreshing lifetime
+[20:35:58.617650 0.003690] [INFO: TSCH-LOG  ] {asn 00.000014af link  1  13   0  4  1 ch 20} drift -3 ppm (min/max delta seen: -48/12)
+[20:35:58.627762 0.010111] [INFO: TSCH-LOG  ] {asn 00.000014af link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 188, edr  14, dr -14
+[20:36:19.555226 20.927460] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 453 max-rank 1477, dioint 20, nbr count 1 (Periodic)
+[20:36:19.576376 0.021155] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  275,   178 =>   453 --  4  bafp (last tx 0 min ago)
+[20:36:19.585870 0.009494] [INFO: RPL       ] nbr: end of list
+[20:36:25.327389 5.741516] [INFO: RPL       ] no neighbor needs probing
+[20:36:33.247253 7.919860] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:36:38.285441 5.038189] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 253, status 0, tx 1
+[20:36:38.299492 0.014057] [INFO: TSCH-LOG  ] {asn 00.00001521 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq 253, st 0  1
+[20:37:15.867304 37.567811] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 190
+[20:37:15.873906 0.006603] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 273
+[20:37:15.888355 0.014448] [INFO: RPL       ] refreshing lifetime
+[20:37:15.892353 0.003998] [INFO: TSCH-LOG  ] {asn 00.0000158c link  1  13   0  4  1 ch 20} drift -2 ppm (min/max delta seen: -48/12)
+[20:37:15.902451 0.010099] [INFO: TSCH-LOG  ] {asn 00.0000158c link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 190, edr   8, dr  -8
+[20:37:19.555214 3.652759] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 451 max-rank 1475, dioint 20, nbr count 1 (Periodic)
+[20:37:19.576290 0.021079] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   178 =>   451 --  4  bafp (last tx 1 min ago)
+[20:37:19.585749 0.009459] [INFO: RPL       ] nbr: end of list
+[20:38:06.743581 47.157829] [INFO: RPL       ] no neighbor needs probing
+[20:38:19.555617 12.812033] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 451 max-rank 1475, dioint 20, nbr count 1 (Periodic)
+[20:38:19.575658 0.020023] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   178 =>   451 --  4  bafp (last tx 2 min ago)
+[20:38:19.587228 0.011592] [INFO: RPL       ] nbr: end of list
+[20:38:47.659481 28.072254] [INFO: TSCH-LOG  ] {asn 00.00001693 link  0  23   0  6  0 ch 20} drift -2 ppm (min/max delta seen: -48/12)
+[20:38:47.672218 0.012737] [INFO: TSCH-LOG  ] {asn 00.00001693 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 190, edr  16, dr -16
+[20:38:59.455894 11.783673] [INFO: RPL       ] sending a multicast-DIO with rank 451 to ff02::1a
+[20:38:59.469199 0.013309] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 135, queue 1 1, len 20 100
+[20:39:01.730774 2.261571] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 254, status 0, tx 1
+[20:39:01.743496 0.012726] [INFO: TSCH-LOG  ] {asn 00.000016bb link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len 100, seq 254, st 0  1
+[20:39:19.559008 17.815509] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 451 max-rank 1475, dioint 20, nbr count 1 (Periodic)
+[20:39:19.578958 0.019953] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   178 =>   451 --  4  bafp (last tx 3 min ago)
+[20:39:19.590045 0.011087] [INFO: RPL       ] nbr: end of list
+[20:39:26.162502 6.572453] [INFO: RPL       ] no neighbor needs probing
+[20:39:36.349505 10.186996] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 65535
+[20:39:36.362201 0.012708] [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 273
+[20:39:36.376765 0.014564] [INFO: RPL       ] refreshing lifetime
+[20:39:36.380540 0.003776] [INFO: TSCH-LOG  ] {asn 00.0000171e link  2  11   0  0  2 ch 20} drift -5 ppm (min/max delta seen: -48/12)
+[20:39:36.390843 0.010302] [INFO: TSCH-LOG  ] {asn 00.0000171e link  2  11   0  0  2 ch 20} bc-1-5 rx LL-af06->LL-NULL, len 100, seq 190, edr  10, dr -10
+[20:40:12.147461 35.756614] [INFO: RPL       ] no neighbor needs probing
+[20:40:19.550528 7.403069] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 451 max-rank 1475, dioint 20, nbr count 1 (Periodic)
+[20:40:19.565458 0.014930] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   178 =>   451 --  4  bafp (last tx 4 min ago)
+[20:40:19.575181 0.009723] [INFO: RPL       ] nbr: end of list
+[20:40:20.025337 0.450156] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:40:20.031478 0.006143] [INFO: RPL       ] creating hop-by-hop option
+[20:40:20.036103 0.004624] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 136, queue 1 1, len 27 133
+[20:40:20.045131 0.009029] [INFO: App       ] Sent checksum 7 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:40:20.053995 0.008865] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:40:20.058974 0.004978] [INFO: App       ] 
+[20:40:20.061093 0.002118] Energest:
+[20:40:20.062300 0.001209] [INFO: App       ]  Radio LISTEN 22031840 TRANSMIT 280214 OFF      115330648 TOTAL: 137642702
+[20:40:20.070703 0.008402] [INFO: App       ] Total time: 25 minutes, 0 seconds, 65536 ticks pr sec
+[20:40:22.975346 2.904638] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 136, status 0, tx 1
+[20:40:22.988773 0.013429] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 173
+[20:40:22.996929 0.008159] [INFO: TSCH-LOG  ] {asn 00.000017a3 link  1  13   0  6  1 ch 20} drift -4 ppm (min/max delta seen: -48/12)
+[20:40:23.006629 0.009700] [INFO: TSCH-LOG  ] {asn 00.000017a3 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 136, st 0  1, dr   8
+[20:40:58.121394 35.114760] [INFO: RPL       ] no neighbor needs probing
+[20:41:19.553125 21.431735] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 446 max-rank 1470, dioint 20, nbr count 1 (Periodic)
+[20:41:19.567989 0.014865] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   173 =>   446 --  5  bafp (last tx 0 min ago)
+[20:41:19.577697 0.009707] [INFO: RPL       ] nbr: end of list
+[20:42:06.191458 46.613757] [INFO: RPL       ] sending a DAO seqno 242, tx count 1, lifetime 30, prefix fd00::212:4b00:f29:a804 to fd00::212:4b00:1531:f806, parent fe80::212:4b00:1532:af06
+[20:42:06.210957 0.019504] [INFO: RPL       ] creating hop-by-hop option
+[20:42:06.215546 0.004589] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 137, queue 1 1, len 27 97
+[20:42:07.466096 1.250531] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 137, status 0, tx 1
+[20:42:07.474812 0.008734] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 168
+[20:42:07.483809 0.008998] [INFO: TSCH-LOG  ] {asn 00.000018ce link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/12)
+[20:42:07.494495 0.010685] [INFO: TSCH-LOG  ] {asn 00.000018ce link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len  97, seq 137, st 0  1, dr  -2
+[20:42:19.552479 12.057980] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 441 max-rank 1465, dioint 20, nbr count 1 (Periodic)
+[20:42:19.570864 0.018389] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   168 =>   441 --  6  bafp (last tx 0 min ago)
+[20:42:19.580368 0.009504] [INFO: RPL       ] nbr: end of list
+[20:42:20.356033 0.775660] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 194
+[20:42:20.368094 0.012066] [INFO: RPL       ] received a DAO-ACK with seqno 242 (242 242) and status 0 from fd00::212:4b00:1531:f806
+[20:42:20.378799 0.010705] [INFO: TSCH-LOG  ] {asn 00.000018f3 link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/12)
+[20:42:20.390102 0.011302] [INFO: TSCH-LOG  ] {asn 00.000018f3 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len  64, seq 194, edr  -4, dr   4
+[20:42:27.036105 6.646003] [INFO: RPL       ] no neighbor needs probing
+[20:42:43.539454 16.503348] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:42:48.220473 4.681016] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 255, status 0, tx 1
+[20:42:48.234116 0.013649] [INFO: TSCH-LOG  ] {asn 00.00001943 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq 255, st 0  1
+[20:43:19.552293 31.318165] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 441 max-rank 1465, dioint 20, nbr count 1 (Periodic)
+[20:43:19.572894 0.020612] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   168 =>   441 --  6  bafp (last tx 1 min ago)
+[20:43:19.581748 0.008855] [INFO: RPL       ] nbr: end of list
+[20:44:01.300612 41.718860] [INFO: TSCH-LOG  ] {asn 00.00001a14 link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/12)
+[20:44:01.311429 0.010820] [INFO: TSCH-LOG  ] {asn 00.00001a14 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 194, edr   4, dr  -4
+[20:44:19.546741 18.235306] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 441 max-rank 1465, dioint 20, nbr count 1 (Periodic)
+[20:44:19.567282 0.020547] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   168 =>   441 --  6  bafp (last tx 2 min ago)
+[20:44:19.577284 0.010002] [INFO: RPL       ] nbr: end of list
+[20:44:21.993838 2.416554] [INFO: RPL       ] no neighbor needs probing
+[20:45:19.546861 57.553022] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 441 max-rank 1465, dioint 20, nbr count 1 (Periodic)
+[20:45:19.562114 0.015254] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   168 =>   441 --  6  bafp (last tx 3 min ago)
+[20:45:19.571949 0.009836] [INFO: RPL       ] nbr: end of list
+[20:45:20.115455 0.543503] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:45:20.122701 0.007246] [INFO: RPL       ] creating hop-by-hop option
+[20:45:20.127902 0.005204] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 138, queue 1 1, len 27 133
+[20:45:20.137290 0.009386] [INFO: App       ] Sent checksum 126 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:45:20.147504 0.010214] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:45:20.153219 0.005709] [INFO: App       ] 
+[20:45:20.155600 0.002387] Energest:
+[20:45:20.156889 0.001288] [INFO: App       ]  Radio LISTEN 22290976 TRANSMIT 314976 OFF      134703896 TOTAL: 157309848
+[20:45:20.166178 0.009290] [INFO: App       ] Total time: 30 minutes, 0 seconds, 65536 ticks pr sec
+[20:45:22.979030 2.812849] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 138, status 0, tx 1
+[20:45:22.991772 0.012747] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 164
+[20:45:23.000405 0.008632] [INFO: TSCH-LOG  ] {asn 00.00001afd link  1  13   0  6  1 ch 20} drift -3 ppm (min/max delta seen: -48/12)
+[20:45:23.010540 0.010136] [INFO: TSCH-LOG  ] {asn 00.00001afd link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 138, st 0  1, dr   6
+[20:46:19.548748 56.538206] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 437 max-rank 1461, dioint 20, nbr count 1 (Periodic)
+[20:46:19.564372 0.015626] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   164 =>   437 --  7  bafp (last tx 0 min ago)
+[20:46:19.574218 0.009845] [INFO: RPL       ] nbr: end of list
+[20:46:28.000853 8.426635] [INFO: RPL       ] no neighbor needs probing
+[20:47:19.541558 51.540705] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 437 max-rank 1461, dioint 20, nbr count 1 (Periodic)
+[20:47:19.557807 0.016247] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   164 =>   437 --  7  bafp (last tx 1 min ago)
+[20:47:19.568929 0.011122] [INFO: RPL       ] nbr: end of list
+[20:48:16.963707 57.394777] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:48:17.945692 0.981987] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 1, status 0, tx 1
+[20:48:17.953505 0.007815] [INFO: TSCH-LOG  ] {asn 00.00001cf2 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq   1, st 0  1
+[20:48:19.541406 1.587889] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 437 max-rank 1461, dioint 21, nbr count 1 (Periodic)
+[20:48:19.565156 0.023759] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   164 =>   437 --  7  bafp (last tx 2 min ago)
+[20:48:19.574632 0.009478] [INFO: RPL       ] nbr: end of list
+[20:48:25.913489 6.338857] [INFO: RPL       ] no neighbor needs probing
+[20:49:07.274106 41.360616] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 139, queue 1 1, len 27 27
+[20:49:07.283173 0.009068] [INFO: TSCH      ] sending KA to 0012.4b00.1532.af06
+[20:49:10.097606 2.814433] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 139, status 0, tx 1
+[20:49:10.105400 0.007795] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 160
+[20:49:10.113707 0.008306] [INFO: TSCH      ] KA sent to 0012.4b00.1532.af06, st 0-1
+[20:49:10.121126 0.007420] [INFO: TSCH-LOG  ] {asn 00.00001d87 link  1  13   0  6  1 ch 20} drift -3 ppm (min/max delta seen: -48/12)
+[20:49:10.130737 0.009608] [INFO: TSCH-LOG  ] {asn 00.00001d87 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len  27, seq 139, st 0  1, dr -12
+[20:49:19.543551 9.412816] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 433 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:49:19.558812 0.015261] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   160 =>   433 --  8  bafp (last tx 0 min ago)
+[20:49:19.568276 0.009465] [INFO: RPL       ] nbr: end of list
+[20:49:35.410789 15.842511] [INFO: RPL       ] no neighbor needs probing
+[20:49:47.110300 11.699511] [INFO: TSCH-LOG  ] {asn 00.00001df1 link  0  23   0  6  0 ch 20} drift -3 ppm (min/max delta seen: -48/12)
+[20:49:47.126143 0.015846] [INFO: TSCH-LOG  ] {asn 00.00001df1 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 194, edr   0, dr   0
+[20:50:19.543892 32.417745] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 433 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:50:19.559812 0.015919] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  273,   160 =>   433 --  8  bafp (last tx 1 min ago)
+[20:50:19.573552 0.013742] [INFO: RPL       ] nbr: end of list
+[20:50:20.115780 0.542227] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:50:20.122198 0.006418] [INFO: RPL       ] creating hop-by-hop option
+[20:50:20.127004 0.004807] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 140, queue 1 1, len 27 133
+[20:50:20.144132 0.017125] [INFO: App       ] Sent checksum 19 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:50:20.162066 0.017936] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:50:20.174193 0.012128] [INFO: App       ] 
+[20:50:20.177294 0.003099] Energest:
+[20:50:20.178664 0.001370] [INFO: App       ]  Radio LISTEN 22541558 TRANSMIT 339452 OFF      154089826 TOTAL: 176970836
+[20:50:20.189059 0.010397] [INFO: App       ] Total time: 35 minutes, 0 seconds, 65536 ticks pr sec
+[20:50:22.936137 2.747079] [INFO: TSCH-LOG  ] {asn 00.00001e57 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 140, st 2  1
+[20:50:27.529180 4.593043] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 140, status 0, tx 2
+[20:50:27.537326 0.008147] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 2, new link metric 169
+[20:50:27.546019 0.008693] [INFO: TSCH-LOG  ] {asn 00.00001e64 link  1  13   0  6  1 ch 20} drift -3 ppm (min/max delta seen: -48/12)
+[20:50:27.556016 0.009997] [INFO: TSCH-LOG  ] {asn 00.00001e64 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 140, st 0  2, dr   0
+[20:50:31.334451 3.778429] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 198
+[20:50:31.341825 0.007379] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 286
+[20:50:31.356196 0.014371] [INFO: RPL       ] refreshing lifetime
+[20:50:31.360083 0.003888] [INFO: TSCH-LOG  ] {asn 00.00001e6f link  1  13   0  4  1 ch 20} drift -5 ppm (min/max delta seen: -48/12)
+[20:50:31.370563 0.010477] [INFO: TSCH-LOG  ] {asn 00.00001e6f link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 198, edr   4, dr  -4
+[20:51:19.538204 48.167642] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 455 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:51:19.554843 0.016640] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   169 =>   455 --  6  bafp (last tx 0 min ago)
+[20:51:19.564855 0.010012] [INFO: RPL       ] nbr: end of list
+[20:51:21.714357 2.149498] [INFO: RPL       ] no neighbor needs probing
+[20:51:39.517598 17.803241] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 200
+[20:51:39.528082 0.010487] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 283
+[20:51:39.542894 0.014807] [INFO: RPL       ] refreshing lifetime
+[20:51:39.547058 0.004171] [INFO: TSCH-LOG  ] {asn 00.00001f32 link  1  13   0  4  1 ch 20} drift -5 ppm (min/max delta seen: -48/12)
+[20:51:39.557730 0.010667] [INFO: TSCH-LOG  ] {asn 00.00001f32 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 200, edr   0, dr   0
+[20:52:19.538914 39.981183] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 452 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:52:19.559481 0.020573] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   169 =>   452 --  6  bafp (last tx 1 min ago)
+[20:52:19.568927 0.009446] [INFO: RPL       ] nbr: end of list
+[20:53:09.809715 50.240777] [INFO: RPL       ] no neighbor needs probing
+[20:53:19.537989 9.728280] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 452 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:53:19.553461 0.015477] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   169 =>   452 --  6  bafp (last tx 2 min ago)
+[20:53:19.563094 0.009633] [INFO: RPL       ] nbr: end of list
+[20:53:56.090003 36.526908] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:54:03.755804 7.665801] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 2, status 0, tx 1
+[20:54:03.768785 0.012978] [INFO: TSCH-LOG  ] {asn 00.000020cf link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq   2, st 0  1
+[20:54:19.073883 15.305101] [INFO: RPL       ] no neighbor needs probing
+[20:54:19.533561 0.459675] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 452 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:54:19.554214 0.020653] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   169 =>   452 --  6  bafp (last tx 3 min ago)
+[20:54:19.563671 0.009460] [INFO: RPL       ] nbr: end of list
+[20:55:19.531834 59.968159] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 452 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:55:19.552124 0.020294] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   169 =>   452 --  6  bafp (last tx 4 min ago)
+[20:55:19.561609 0.009486] [INFO: RPL       ] nbr: end of list
+[20:55:20.202719 0.641108] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[20:55:20.209253 0.006535] [INFO: RPL       ] creating hop-by-hop option
+[20:55:20.213654 0.004403] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 141, queue 1 1, len 27 133
+[20:55:20.223188 0.009532] [INFO: App       ] Sent checksum 148 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[20:55:20.233274 0.010087] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[20:55:20.238348 0.005074] [INFO: App       ] 
+[20:55:20.240593 0.002244] Energest:
+[20:55:20.241799 0.001206] [INFO: App       ]  Radio LISTEN 22804722 TRANSMIT 381478 OFF      173451756 TOTAL: 196637956
+[20:55:20.252035 0.010237] [INFO: App       ] Total time: 40 minutes, 0 seconds, 65536 ticks pr sec
+[20:55:22.988930 2.736890] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 141, status 0, tx 1
+[20:55:23.001433 0.012507] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 164
+[20:55:23.010043 0.008611] [INFO: TSCH-LOG  ] {asn 00.000021b1 link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/12)
+[20:55:23.020129 0.010086] [INFO: TSCH-LOG  ] {asn 00.000021b1 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 141, st 0  1, dr  16
+[20:55:23.069000 0.048867] [INFO: RPL       ] no neighbor needs probing
+[20:55:40.962133 17.893135] [INFO: TSCH-LOG  ] {asn 00.000021e5 link  0  23   0  6  0 ch 20} drift -5 ppm (min/max delta seen: -48/16)
+[20:55:40.972576 0.010445] [INFO: TSCH-LOG  ] {asn 00.000021e5 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 200, edr   0, dr   0
+[20:56:09.123560 28.150978] [INFO: RPL       ] no neighbor needs probing
+[20:56:19.535520 10.411964] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 447 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:56:19.551579 0.016059] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   164 =>   447 --  7  bafp (last tx 0 min ago)
+[20:56:19.561721 0.010143] [INFO: RPL       ] nbr: end of list
+[20:57:19.535293 59.973569] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 447 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:57:19.558108 0.022818] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   164 =>   447 --  7  bafp (last tx 1 min ago)
+[20:57:19.568397 0.010288] [INFO: RPL       ] nbr: end of list
+[20:58:01.984681 42.416284] [INFO: RPL       ] no neighbor needs probing
+[20:58:19.535642 17.550958] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 447 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:58:19.556625 0.020987] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   164 =>   447 --  7  bafp (last tx 2 min ago)
+[20:58:19.567263 0.010633] [INFO: RPL       ] nbr: end of list
+[20:59:15.195135 55.627877] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[20:59:17.397380 2.202244] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 3, status 0, tx 1
+[20:59:17.410771 0.013393] [INFO: TSCH-LOG  ] {asn 00.00002450 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq   3, st 0  1
+[20:59:19.530495 2.119723] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 447 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[20:59:19.545582 0.015088] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   164 =>   447 --  7  bafp (last tx 3 min ago)
+[20:59:19.555433 0.009851] [INFO: RPL       ] nbr: end of list
+[20:59:39.841463 20.286028] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 142, queue 1 1, len 27 27
+[20:59:39.854902 0.013438] [INFO: TSCH      ] sending KA to 0012.4b00.1532.af06
+[20:59:41.926236 2.071335] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 142, status 0, tx 1
+[20:59:41.934588 0.008352] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 160
+[20:59:41.944329 0.009742] [INFO: TSCH      ] KA sent to 0012.4b00.1532.af06, st 0-1
+[20:59:41.949885 0.005557] [INFO: TSCH-LOG  ] {asn 00.00002496 link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/16)
+[20:59:41.960976 0.011091] [INFO: TSCH-LOG  ] {asn 00.00002496 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len  27, seq 142, st 0  1, dr  18
+[21:00:09.811160 27.850178] [INFO: RPL       ] no neighbor needs probing
+[21:00:19.532993 9.721838] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 443 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[21:00:19.553711 0.020717] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   160 =>   443 --  8  bafp (last tx 0 min ago)
+[21:00:19.563512 0.009803] [INFO: RPL       ] nbr: end of list
+[21:00:20.200353 0.636836] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:00:20.211887 0.011540] [INFO: RPL       ] creating hop-by-hop option
+[21:00:20.216378 0.004491] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 143, queue 1 1, len 27 133
+[21:00:20.225198 0.008819] [INFO: App       ] Sent checksum 111 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:00:20.234718 0.009519] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:00:20.239798 0.005081] [INFO: App       ] 
+[21:00:20.241739 0.001941] Energest:
+[21:00:20.242778 0.001040] [INFO: App       ]  Radio LISTEN 23055308 TRANSMIT 405954 OFF      192837692 TOTAL: 216298954
+[21:00:20.251622 0.008843] [INFO: App       ] Total time: 45 minutes, 0 seconds, 65536 ticks pr sec
+[21:00:22.993819 2.742196] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 143, status 0, tx 1
+[21:00:23.001837 0.008019] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 156
+[21:00:23.010563 0.008726] [INFO: TSCH-LOG  ] {asn 00.0000250b link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:00:23.020433 0.009870] [INFO: TSCH-LOG  ] {asn 00.0000250b link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 143, st 0  1, dr  12
+[21:01:18.730194 55.709757] [INFO: TSCH-LOG  ] {asn 00.000025ab link  0  23   0  6  0 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:01:18.744013 0.013822] [INFO: TSCH-LOG  ] {asn 00.000025ab link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 200, edr   0, dr   0
+[21:01:19.525113 0.781100] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 439 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[21:01:19.545883 0.020773] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   156 =>   439 --  9  bafp (last tx 0 min ago)
+[21:01:19.555467 0.009582] [INFO: RPL       ] nbr: end of list
+[21:01:49.828645 30.273164] [INFO: RPL       ] no neighbor needs probing
+[21:02:19.525604 29.696969] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 439 max-rank 1457, dioint 21, nbr count 1 (Periodic)
+[21:02:19.546865 0.021264] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  283,   156 =>   439 --  9  bafp (last tx 1 min ago)
+[21:02:19.556394 0.009529] [INFO: RPL       ] nbr: end of list
+[21:02:47.710513 28.154118] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 207
+[21:02:47.718789 0.008277] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 268
+[21:02:47.740458 0.021667] [INFO: RPL       ] refreshing lifetime
+[21:02:47.746149 0.005691] [INFO: TSCH-LOG  ] {asn 00.000026a9 link  1  13   0  4  1 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:02:47.758419 0.012272] [INFO: TSCH-LOG  ] {asn 00.000026a9 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 207, edr  -4, dr   4
+[21:02:56.154749 8.396326] [INFO: RPL       ] no neighbor needs probing
+[21:03:19.525649 23.370901] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 424 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:03:19.546160 0.020514] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  268,   156 =>   424 --  9  bafp (last tx 2 min ago)
+[21:03:19.555808 0.009649] [INFO: RPL       ] nbr: end of list
+[21:03:54.965393 35.409580] [INFO: RPL       ] no neighbor needs probing
+[21:04:19.527366 24.561974] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 424 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:04:19.552465 0.025070] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  268,   156 =>   424 --  9  bafp (last tx 3 min ago)
+[21:04:19.563158 0.010667] [INFO: RPL       ] nbr: end of list
+[21:04:53.824614 34.261514] [INFO: RPL       ] no neighbor needs probing
+[21:05:19.522843 25.698228] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 424 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:05:19.543715 0.020871] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  268,   156 =>   424 --  9  bafp (last tx 4 min ago)
+[21:05:19.553629 0.009917] [INFO: RPL       ] nbr: end of list
+[21:05:20.241325 0.687695] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:05:20.247609 0.006286] [INFO: RPL       ] creating hop-by-hop option
+[21:05:20.252191 0.004580] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 144, queue 1 1, len 27 133
+[21:05:20.260578 0.008387] [INFO: App       ] Sent checksum 17 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:05:20.269334 0.008757] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:05:20.274157 0.004824] [INFO: App       ] 
+[21:05:20.276217 0.002059] Energest:
+[21:05:20.277283 0.001068] [INFO: App       ]  Radio LISTEN 23314770 TRANSMIT 424174 OFF      212223864 TOTAL: 235962808
+[21:05:20.285838 0.008530] [INFO: App       ] Total time: 50 minutes, 0 seconds, 65536 ticks pr sec
+[21:05:22.952644 2.666825] [INFO: TSCH-LOG  ] {asn 00.00002865 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 144, st 2  1
+[21:05:32.043243 9.090599] [INFO: TSCH-LOG  ] {asn 00.0000287f link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 144, st 2  2
+[21:05:35.670161 3.626917] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:05:36.588813 0.918620] [INFO: TSCH-LOG  ] {asn 00.0000288c link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 144, st 2  3
+[21:05:43.418123 6.829342] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 4, status 0, tx 1
+[21:05:43.429954 0.011834] [INFO: TSCH-LOG  ] {asn 00.000028a0 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq   4, st 0  1
+[21:05:45.727638 2.297681] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 144, status 0, tx 4
+[21:05:45.741583 0.013950] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 4, new link metric 191
+[21:05:45.750316 0.008732] [INFO: TSCH-LOG  ] {asn 00.000028a6 link  1  13   0  6  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:05:45.760363 0.010048] [INFO: TSCH-LOG  ] {asn 00.000028a6 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 144, st 0  4, dr  16
+[21:06:03.167726 17.407361] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 211
+[21:06:03.174557 0.006833] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 298
+[21:06:03.189047 0.014489] [INFO: RPL       ] refreshing lifetime
+[21:06:03.192886 0.003840] [INFO: TSCH-LOG  ] {asn 00.000028d8 link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:06:03.203073 0.010187] [INFO: TSCH-LOG  ] {asn 00.000028d8 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 211, edr   2, dr  -2
+[21:06:19.523303 16.320225] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 489 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:06:19.546831 0.023531] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   191 =>   489 --  8  bafp (last tx 0 min ago)
+[21:06:19.558729 0.011897] [INFO: RPL       ] nbr: end of list
+[21:06:19.895415 0.336686] [INFO: RPL       ] no neighbor needs probing
+[21:07:03.323691 43.428277] [INFO: RPL       ] sending a multicast-DIO with rank 489 to ff02::1a
+[21:07:03.330842 0.007152] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 144, queue 1 1, len 20 100
+[21:07:06.373808 3.042963] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 5, status 0, tx 1
+[21:07:06.388073 0.014269] [INFO: TSCH-LOG  ] {asn 00.0000298d link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len 100, seq   5, st 0  1
+[21:07:19.523233 13.135155] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 489 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:07:19.543732 0.020504] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   191 =>   489 --  8  bafp (last tx 1 min ago)
+[21:07:19.553338 0.009606] [INFO: RPL       ] nbr: end of list
+[21:07:29.866544 10.313205] [INFO: RPL       ] no neighbor needs probing
+[21:07:44.751033 14.884489] [INFO: TSCH-LOG  ] {asn 00.000029fb link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:07:44.761608 0.010575] [INFO: TSCH-LOG  ] {asn 00.000029fb link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 211, edr   0, dr   0
+[21:07:52.261043 7.499435] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 212
+[21:07:52.273554 0.012512] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 298
+[21:07:52.287400 0.013845] [INFO: RPL       ] refreshing lifetime
+[21:07:52.291160 0.003758] [INFO: TSCH-LOG  ] {asn 00.00002a10 link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:07:52.300969 0.009812] [INFO: TSCH-LOG  ] {asn 00.00002a10 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 212, edr   0, dr   0
+[21:08:19.522617 27.221643] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 489 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:08:19.542369 0.019757] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   191 =>   489 --  8  bafp (last tx 2 min ago)
+[21:08:19.551442 0.009073] [INFO: RPL       ] nbr: end of list
+[21:08:42.533400 22.981957] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 65535
+[21:08:42.540316 0.006917] [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 298
+[21:08:42.554722 0.014406] [INFO: RPL       ] refreshing lifetime
+[21:08:42.558646 0.003923] [INFO: TSCH-LOG  ] {asn 00.00002aa0 link  2  11   0  0  2 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:08:42.568819 0.010174] [INFO: TSCH-LOG  ] {asn 00.00002aa0 link  2  11   0  0  2 ch 20} bc-1-5 rx LL-af06->LL-NULL, len 100, seq 212, edr   0, dr   0
+[21:09:17.831492 35.262666] [INFO: RPL       ] no neighbor needs probing
+[21:09:19.517299 1.685809] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 489 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:09:19.534506 0.017210] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   191 =>   489 --  8  bafp (last tx 3 min ago)
+[21:09:19.545263 0.010758] [INFO: RPL       ] nbr: end of list
+[21:10:19.519639 59.974372] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 489 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:10:19.540318 0.020684] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   191 =>   489 --  8  bafp (last tx 4 min ago)
+[21:10:19.549970 0.009652] [INFO: RPL       ] nbr: end of list
+[21:10:20.234209 0.684238] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:10:20.240329 0.006121] [INFO: RPL       ] creating hop-by-hop option
+[21:10:20.244977 0.004648] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 145, queue 1 1, len 27 133
+[21:10:20.253505 0.008527] [INFO: App       ] Sent checksum 196 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:10:20.263395 0.009890] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:10:20.268354 0.004959] [INFO: App       ] 
+[21:10:20.270425 0.002072] Energest:
+[21:10:20.271579 0.001155] [INFO: App       ]  Radio LISTEN 23593620 TRANSMIT 506784 OFF      231523090 TOTAL: 255623494
+[21:10:20.280490 0.008910] [INFO: App       ] Total time: 55 minutes, 0 seconds, 65536 ticks pr sec
+[21:10:23.005451 2.724956] [INFO: TSCH-LOG  ] {asn 00.00002bbf link  1  13   0  6  1 ch 20} !failed to parse ACK
+[21:10:23.015071 0.009624] [INFO: TSCH-LOG  ] {asn 00.00002bbf link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 145, st 2  1
+[21:10:27.502494 4.487423] [INFO: TSCH-LOG  ] {asn 00.00002bcc link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 145, st 2  2
+[21:10:32.096893 4.594399] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 145, status 0, tx 3
+[21:10:32.107781 0.010887] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 3, new link metric 210
+[21:10:32.117613 0.009833] [INFO: TSCH-LOG  ] {asn 00.00002bd9 link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:10:32.128251 0.010637] [INFO: TSCH-LOG  ] {asn 00.00002bd9 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 145, st 0  3, dr   4
+[21:10:50.365937 18.237682] [INFO: RPL       ] sending a DAO seqno 243, tx count 1, lifetime 30, prefix fd00::212:4b00:f29:a804 to fd00::212:4b00:1531:f806, parent fe80::212:4b00:1532:af06
+[21:10:50.386424 0.020491] [INFO: RPL       ] creating hop-by-hop option
+[21:10:50.390891 0.004469] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 146, queue 1 1, len 27 97
+[21:10:54.768122 4.377228] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 146, status 0, tx 1
+[21:10:54.779407 0.011286] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 201
+[21:10:54.789798 0.010392] [INFO: TSCH-LOG  ] {asn 00.00002c1a link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:10:54.801004 0.011203] [INFO: TSCH-LOG  ] {asn 00.00002c1a link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len  97, seq 146, st 0  1, dr  -2
+[21:11:05.074555 10.273550] [INFO: RPL       ] no neighbor needs probing
+[21:11:07.658115 2.583563] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 216
+[21:11:07.665503 0.007388] [INFO: RPL       ] received a DAO-ACK with seqno 243 (243 243) and status 0 from fd00::212:4b00:1531:f806
+[21:11:07.677583 0.012080] [INFO: TSCH-LOG  ] {asn 00.00002c3f link  1  13   0  4  1 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:11:07.689877 0.012293] [INFO: TSCH-LOG  ] {asn 00.00002c3f link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len  64, seq 216, edr   0, dr   0
+[21:11:19.520544 11.830666] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:11:19.541194 0.020653] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   201 =>   499 -- 12  bafp (last tx 0 min ago)
+[21:11:19.550885 0.009692] [INFO: RPL       ] nbr: end of list
+[21:11:53.950560 34.399659] [INFO: RPL       ] no neighbor needs probing
+[21:12:06.277669 12.327120] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:12:09.439893 3.162225] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 6, status 0, tx 1
+[21:12:09.454235 0.014346] [INFO: TSCH-LOG  ] {asn 00.00002cf0 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq   6, st 0  1
+[21:12:19.520637 10.066397] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:12:19.544373 0.023740] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   201 =>   499 -- 12  bafp (last tx 1 min ago)
+[21:12:19.554958 0.010585] [INFO: RPL       ] nbr: end of list
+[21:12:58.393982 38.839024] [INFO: TSCH-LOG  ] {asn 00.00002d7c link  0  23   0  6  0 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:12:58.404237 0.010256] [INFO: TSCH-LOG  ] {asn 00.00002d7c link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 216, edr -10, dr  10
+[21:12:59.910328 1.506086] [INFO: RPL       ] no neighbor needs probing
+[21:13:19.512279 19.601954] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:13:19.527439 0.015162] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   201 =>   499 -- 12  bafp (last tx 2 min ago)
+[21:13:19.537563 0.010124] [INFO: RPL       ] nbr: end of list
+[21:14:19.514920 59.977354] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:14:19.530804 0.015884] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   201 =>   499 -- 12  bafp (last tx 3 min ago)
+[21:14:19.541250 0.010448] [INFO: RPL       ] nbr: end of list
+[21:14:59.125881 39.584625] [INFO: RPL       ] no neighbor needs probing
+[21:15:19.517920 20.392044] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:15:19.532435 0.014517] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   201 =>   499 -- 12  bafp (last tx 4 min ago)
+[21:15:19.541688 0.009253] [INFO: RPL       ] nbr: end of list
+[21:15:20.277612 0.735923] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:15:20.283918 0.006306] [INFO: RPL       ] creating hop-by-hop option
+[21:15:20.288165 0.004248] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 147, queue 1 1, len 27 133
+[21:15:20.296823 0.008657] [INFO: App       ] Sent checksum 174 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:15:20.306018 0.009196] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:15:20.310841 0.004823] [INFO: App       ] 
+[21:15:20.312865 0.002024] Energest:
+[21:15:20.313922 0.001058] [INFO: App       ]  Radio LISTEN 23856566 TRANSMIT 570838 OFF      250860020 TOTAL: 275287424
+[21:15:20.322325 0.008402] [INFO: App       ] Total time: 60 minutes, 0 seconds, 65536 ticks pr sec
+[21:15:23.005157 2.682828] [INFO: TSCH-LOG  ] {asn 00.00002f19 link  1  13   0  6  1 ch 20} !failed to parse ACK
+[21:15:23.021120 0.015967] [INFO: TSCH-LOG  ] {asn 00.00002f19 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 147, st 2  1
+[21:15:27.508265 4.487144] [INFO: TSCH-LOG  ] {asn 00.00002f26 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 147, st 2  2
+[21:15:32.101380 4.593115] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 147, status 0, tx 3
+[21:15:32.109418 0.008039] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 3, new link metric 219
+[21:15:32.117871 0.008453] [INFO: TSCH-LOG  ] {asn 00.00002f33 link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:15:32.127586 0.009715] [INFO: TSCH-LOG  ] {asn 00.00002f33 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 147, st 0  3, dr   8
+[21:16:19.514120 47.386533] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 517 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:16:19.529590 0.015470] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   219 =>   517 -- 15  bafp (last tx 0 min ago)
+[21:16:19.539190 0.009601] [INFO: RPL       ] nbr: end of list
+[21:16:36.045283 16.506088] [INFO: RPL       ] no neighbor needs probing
+[21:17:19.510851 43.465572] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 517 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:17:19.539549 0.028698] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   219 =>   517 -- 15  bafp (last tx 1 min ago)
+[21:17:19.549157 0.009609] [INFO: RPL       ] nbr: end of list
+[21:17:35.215716 15.666554] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:17:39.166655 3.950942] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 7, status 0, tx 1
+[21:17:39.174571 0.007917] [INFO: TSCH-LOG  ] {asn 00.0000309f link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq   7, st 0  1
+[21:17:46.334851 7.160278] [INFO: RPL       ] no neighbor needs probing
+[21:18:19.510989 33.176136] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 517 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:18:19.533280 0.022295] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   219 =>   517 -- 15  bafp (last tx 2 min ago)
+[21:18:19.543612 0.010333] [INFO: RPL       ] nbr: end of list
+[21:19:00.780734 41.237117] [INFO: RPL       ] no neighbor needs probing
+[21:19:08.330224 7.549493] [INFO: TSCH-LOG  ] {asn 00.0000319e link  0  23   0  6  0 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:19:08.341364 0.011139] [INFO: TSCH-LOG  ] {asn 00.0000319e link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 216, edr   0, dr   0
+[21:19:19.513016 11.171650] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 517 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:19:19.533201 0.020191] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   219 =>   517 -- 15  bafp (last tx 3 min ago)
+[21:19:19.542383 0.009181] [INFO: RPL       ] nbr: end of list
+[21:19:56.391294 36.848910] [INFO: RPL       ] no neighbor needs probing
+[21:20:19.508438 23.117141] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 517 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:20:19.528572 0.020137] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   219 =>   517 -- 15  bafp (last tx 4 min ago)
+[21:20:19.538607 0.010035] [INFO: RPL       ] nbr: end of list
+[21:20:20.369415 0.830804] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:20:20.378736 0.009326] [INFO: RPL       ] creating hop-by-hop option
+[21:20:20.383236 0.004499] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 148, queue 1 1, len 27 133
+[21:20:20.391846 0.008611] [INFO: App       ] Sent checksum 84 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:20:20.401098 0.009253] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:20:20.406245 0.005146] [INFO: App       ] 
+[21:20:20.408301 0.002035] Energest:
+[21:20:20.409377 0.001097] [INFO: App       ]  Radio LISTEN 24107454 TRANSMIT 620362 OFF      270226732 TOTAL: 294954548
+[21:20:20.418357 0.008981] [INFO: App       ] Total time: 65 minutes, 0 seconds, 65536 ticks pr sec
+[21:20:23.016644 2.598285] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 148, status 0, tx 1
+[21:20:23.042969 0.026325] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 209
+[21:20:23.051739 0.008768] [INFO: TSCH-LOG  ] {asn 00.00003273 link  1  13   0  6  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:20:23.062186 0.010450] [INFO: TSCH-LOG  ] {asn 00.00003273 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 148, st 0  1, dr   8
+[21:21:19.508144 56.445953] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 507 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:21:19.529581 0.021442] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  298,   209 =>   507 --  8  bafp (last tx 0 min ago)
+[21:21:19.539156 0.009574] [INFO: RPL       ] nbr: end of list
+[21:21:34.897973 15.358813] [INFO: RPL       ] no neighbor needs probing
+[21:21:39.549760 4.651790] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 221
+[21:21:39.556469 0.006711] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 286
+[21:21:39.570693 0.014223] [INFO: RPL       ] refreshing lifetime
+[21:21:39.574664 0.003972] [INFO: TSCH-LOG  ] {asn 00.0000334e link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:21:39.584867 0.010199] [INFO: TSCH-LOG  ] {asn 00.0000334e link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 221, edr   4, dr  -4
+[21:22:19.509090 39.924223] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 495 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:22:19.532872 0.023785] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   209 =>   495 --  8  bafp (last tx 1 min ago)
+[21:22:19.543364 0.010492] [INFO: RPL       ] nbr: end of list
+[21:22:56.823923 37.280555] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 222
+[21:22:56.832165 0.008246] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 286
+[21:22:56.846683 0.014517] [INFO: RPL       ] refreshing lifetime
+[21:22:56.850354 0.003673] [INFO: TSCH-LOG  ] {asn 00.0000342b link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:22:56.860215 0.009861] [INFO: TSCH-LOG  ] {asn 00.0000342b link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 222, edr   0, dr   0
+[21:23:19.508019 22.647799] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 495 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:23:19.529602 0.021588] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   209 =>   495 --  8  bafp (last tx 2 min ago)
+[21:23:19.538740 0.009138] [INFO: RPL       ] nbr: end of list
+[21:23:30.110311 10.571566] [INFO: RPL       ] no neighbor needs probing
+[21:23:38.873595 8.763284] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:23:41.061748 2.188157] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 8, status 0, tx 1
+[21:23:41.069583 0.007836] [INFO: TSCH-LOG  ] {asn 00.000034aa link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq   8, st 0  1
+[21:24:19.503627 38.434042] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 495 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:24:19.518609 0.014983] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   209 =>   495 --  8  bafp (last tx 3 min ago)
+[21:24:19.528382 0.009774] [INFO: RPL       ] nbr: end of list
+[21:24:35.890842 16.362444] [INFO: RPL       ] no neighbor needs probing
+[21:25:19.506530 43.615703] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 495 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:25:19.521612 0.015082] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   209 =>   495 --  8  bafp (last tx 4 min ago)
+[21:25:19.531313 0.009701] [INFO: RPL       ] nbr: end of list
+[21:25:20.461492 0.930175] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:25:20.473862 0.012375] [INFO: RPL       ] creating hop-by-hop option
+[21:25:20.478502 0.004639] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 149, queue 1 1, len 27 133
+[21:25:20.488133 0.009631] [INFO: App       ] Sent checksum 64 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:25:20.499536 0.011399] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:25:20.505158 0.005625] [INFO: App       ] 
+[21:25:20.507499 0.002341] Energest:
+[21:25:20.508867 0.001369] [INFO: App       ]  Radio LISTEN 24374712 TRANSMIT 647742 OFF      289599226 TOTAL: 314621680
+[21:25:20.518181 0.009315] [INFO: App       ] Total time: 70 minutes, 0 seconds, 65536 ticks pr sec
+[21:25:22.975051 2.456867] [INFO: TSCH-LOG  ] {asn 00.000035cd link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 149, st 2  1
+[21:25:26.310638 3.335586] [INFO: TSCH-LOG  ] {asn 00.000035d7 link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:25:26.322475 0.011840] [INFO: TSCH-LOG  ] {asn 00.000035d7 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 222, edr  -2, dr   2
+[21:25:27.568051 1.245576] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 149, status 0, tx 2
+[21:25:27.576483 0.008431] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 2, new link metric 213
+[21:25:27.586250 0.009768] [INFO: TSCH-LOG  ] {asn 00.000035da link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 149, st 0  2, dr   6
+[21:25:52.450400 24.864146] [INFO: RPL       ] no neighbor needs probing
+[21:26:19.506195 27.055795] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:26:19.526702 0.020513] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   213 =>   499 -- 10  bafp (last tx 0 min ago)
+[21:26:19.536186 0.009482] [INFO: RPL       ] nbr: end of list
+[21:27:19.505807 59.969617] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:27:19.526284 0.020481] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   213 =>   499 -- 10  bafp (last tx 1 min ago)
+[21:27:19.535888 0.009604] [INFO: RPL       ] nbr: end of list
+[21:28:00.805418 41.269530] [INFO: RPL       ] no neighbor needs probing
+[21:28:19.498831 18.693413] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 499 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:28:19.515700 0.016864] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   213 =>   499 -- 10  bafp (last tx 2 min ago)
+[21:28:19.526648 0.010953] [INFO: RPL       ] nbr: end of list
+[21:29:05.126108 45.599459] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 150, queue 1 1, len 27 27
+[21:29:05.135920 0.009813] [INFO: TSCH      ] sending KA to 0012.4b00.1532.af06
+[21:29:05.596144 0.460220] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 150, status 0, tx 1
+[21:29:05.612113 0.015971] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 204
+[21:29:05.622371 0.010260] [INFO: TSCH      ] KA sent to 0012.4b00.1532.af06, st 0-1
+[21:29:05.627962 0.005591] [INFO: TSCH-LOG  ] {asn 00.0000384a link  1  13   0  6  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:29:05.638078 0.010117] [INFO: TSCH-LOG  ] {asn 00.0000384a link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len  27, seq 150, st 0  1, dr   2
+[21:29:19.499486 13.861403] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 490 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:29:19.521278 0.021795] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   204 =>   490 -- 11  bafp (last tx 0 min ago)
+[21:29:19.531650 0.010372] [INFO: RPL       ] nbr: end of list
+[21:29:48.872762 29.341114] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:29:50.998578 2.125814] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 9, status 0, tx 1
+[21:29:51.006072 0.007497] [INFO: TSCH-LOG  ] {asn 00.000038cc link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq   9, st 0  1
+[21:30:08.417997 17.411923] [INFO: RPL       ] no neighbor needs probing
+[21:30:19.496452 11.078454] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 490 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:30:19.517206 0.020755] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   204 =>   490 -- 11  bafp (last tx 1 min ago)
+[21:30:19.527464 0.010258] [INFO: RPL       ] nbr: end of list
+[21:30:20.552437 1.024973] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:30:20.563647 0.011207] [INFO: RPL       ] creating hop-by-hop option
+[21:30:20.570048 0.006404] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 151, queue 1 1, len 27 133
+[21:30:20.578985 0.008938] [INFO: App       ] Sent checksum 108 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:30:20.588510 0.009524] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:30:20.593653 0.005144] [INFO: App       ] 
+[21:30:20.595752 0.002099] Energest:
+[21:30:20.596819 0.001067] [INFO: App       ]  Radio LISTEN 24623336 TRANSMIT 686864 OFF      308978630 TOTAL: 334288830
+[21:30:20.605553 0.008735] [INFO: App       ] Total time: 75 minutes, 0 seconds, 65536 ticks pr sec
+[21:30:23.028690 2.423131] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 151, status 0, tx 1
+[21:30:23.040194 0.011507] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 196
+[21:30:23.048919 0.008727] [INFO: TSCH-LOG  ] {asn 00.00003927 link  1  13   0  6  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:30:23.058915 0.009997] [INFO: TSCH-LOG  ] {asn 00.00003927 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 151, st 0  1, dr  -6
+[21:31:04.078758 41.019838] [INFO: TSCH-LOG  ] {asn 00.0000399d link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:31:04.093799 0.015044] [INFO: TSCH-LOG  ] {asn 00.0000399d link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 222, edr   0, dr   0
+[21:31:19.496114 15.402315] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 482 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:31:19.511528 0.015415] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   196 =>   482 -- 12  bafp (last tx 0 min ago)
+[21:31:19.520923 0.009395] [INFO: RPL       ] nbr: end of list
+[21:31:50.398335 30.877406] [INFO: RPL       ] no neighbor needs probing
+[21:32:19.499224 29.100890] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 482 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:32:19.521319 0.022100] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   196 =>   482 -- 12  bafp (last tx 1 min ago)
+[21:32:19.530846 0.009527] [INFO: RPL       ] nbr: end of list
+[21:32:48.131479 28.600628] [INFO: RPL       ] no neighbor needs probing
+[21:33:19.497109 31.365631] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 482 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:33:19.516671 0.019566] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  286,   196 =>   482 -- 12  bafp (last tx 2 min ago)
+[21:33:19.526228 0.009543] [INFO: RPL       ] nbr: end of list
+[21:33:46.767934 27.241717] [INFO: RPL       ] no neighbor needs probing
+[21:33:46.836385 0.068447] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 229
+[21:33:46.846212 0.009835] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 272
+[21:33:46.860699 0.014485] [INFO: RPL       ] refreshing lifetime
+[21:33:46.864616 0.003919] [INFO: TSCH-LOG  ] {asn 00.00003b6e link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:33:46.874615 0.009998] [INFO: TSCH-LOG  ] {asn 00.00003b6e link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 229, edr   6, dr  -6
+[21:34:19.498889 32.624272] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 468 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:34:19.514561 0.015672] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  272,   196 =>   468 -- 12  bafp (last tx 3 min ago)
+[21:34:19.524970 0.010410] [INFO: RPL       ] nbr: end of list
+[21:34:44.776237 25.251264] [INFO: RPL       ] no neighbor needs probing
+[21:35:19.493305 34.717070] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 468 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:35:19.508476 0.015172] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  272,   196 =>   468 -- 12  bafp (last tx 4 min ago)
+[21:35:19.518242 0.009766] [INFO: RPL       ] nbr: end of list
+[21:35:20.550630 1.032387] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:35:20.557023 0.006393] [INFO: RPL       ] creating hop-by-hop option
+[21:35:20.561622 0.004601] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 152, queue 1 1, len 27 133
+[21:35:20.571061 0.009438] [INFO: App       ] Sent checksum 24 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:35:20.581335 0.010274] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:35:20.586832 0.005496] [INFO: App       ] 
+[21:35:20.588887 0.002057] Energest:
+[21:35:20.589999 0.001113] [INFO: App       ]  Radio LISTEN 24881344 TRANSMIT 705084 OFF      328363372 TOTAL: 353949800
+[21:35:20.599548 0.009547] [INFO: App       ] Total time: 80 minutes, 0 seconds, 65536 ticks pr sec
+[21:35:23.034317 2.434765] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 152, status 0, tx 1
+[21:35:23.050258 0.015945] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 189
+[21:35:23.058748 0.008491] [INFO: TSCH-LOG  ] {asn 00.00003c81 link  1  13   0  6  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:35:23.069028 0.010279] [INFO: TSCH-LOG  ] {asn 00.00003c81 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 152, st 0  1, dr   4
+[21:36:17.426777 54.357749] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:36:19.493907 2.067126] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 461 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:36:19.514195 0.020293] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  272,   189 =>   461 --  7  bafp (last tx 0 min ago)
+[21:36:19.523600 0.009401] [INFO: RPL       ] nbr: end of list
+[21:36:25.061141 5.537544] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 10, status 0, tx 1
+[21:36:25.069030 0.007889] [INFO: TSCH-LOG  ] {asn 00.00003d33 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq  10, st 0  1
+[21:36:37.302959 12.233929] [INFO: RPL       ] no neighbor needs probing
+[21:36:44.112426 6.809467] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 232
+[21:36:44.118989 0.006563] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 266
+[21:36:44.133078 0.014089] [INFO: RPL       ] refreshing lifetime
+[21:36:44.136911 0.003835] [INFO: TSCH-LOG  ] {asn 00.00003d69 link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:36:44.146457 0.009544] [INFO: TSCH-LOG  ] {asn 00.00003d69 link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 232, edr  12, dr -12
+[21:37:19.496372 35.349914] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 455 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:37:19.511388 0.015018] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  266,   189 =>   455 --  7  bafp (last tx 1 min ago)
+[21:37:19.521035 0.009647] [INFO: RPL       ] nbr: end of list
+[21:37:22.057567 2.536527] [INFO: TSCH-LOG  ] {asn 00.00003dd6 link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/18)
+[21:37:22.075270 0.017701] [INFO: TSCH-LOG  ] {asn 00.00003dd6 link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 232, edr   0, dr   0
+[21:38:15.022333 52.947069] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 233
+[21:38:15.029120 0.006788] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 266
+[21:38:15.043833 0.014710] [INFO: RPL       ] refreshing lifetime
+[21:38:15.047935 0.004105] [INFO: TSCH-LOG  ] {asn 00.00003e6d link  1  13   0  4  1 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:38:15.057946 0.010009] [INFO: TSCH-LOG  ] {asn 00.00003e6d link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 233, edr  12, dr -12
+[21:38:19.493979 4.436028] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 455 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:38:19.514176 0.020203] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  266,   189 =>   455 --  7  bafp (last tx 2 min ago)
+[21:38:19.523843 0.009667] [INFO: RPL       ] nbr: end of list
+[21:38:43.739912 24.216065] [INFO: RPL       ] no neighbor needs probing
+[21:39:19.489399 35.749486] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 455 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:39:19.508897 0.019463] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  266,   189 =>   455 --  7  bafp (last tx 3 min ago)
+[21:39:19.518487 0.009631] [INFO: RPL       ] nbr: end of list
+[21:40:02.512815 42.994322] [INFO: RPL       ] sending a DAO seqno 244, tx count 1, lifetime 30, prefix fd00::212:4b00:f29:a804 to fd00::212:4b00:1531:f806, parent fe80::212:4b00:1532:af06
+[21:40:02.536627 0.023818] [INFO: RPL       ] creating hop-by-hop option
+[21:40:02.541129 0.004501] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 153, queue 1 1, len 27 97
+[21:40:04.799919 2.258790] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 153, status 0, tx 1
+[21:40:04.808175 0.008256] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 182
+[21:40:04.817862 0.009687] [INFO: TSCH-LOG  ] {asn 00.00003fa7 link  1  13   0  6  1 ch 20} drift -5 ppm (min/max delta seen: -48/18)
+[21:40:04.827866 0.010005] [INFO: TSCH-LOG  ] {asn 00.00003fa7 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len  97, seq 153, st 0  1, dr  20
+[21:40:12.576517 7.748647] [INFO: RPL       ] no neighbor needs probing
+[21:40:17.690937 5.114422] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 236
+[21:40:17.702337 0.011401] [INFO: RPL       ] received a DAO-ACK with seqno 244 (244 244) and status 0 from fd00::212:4b00:1531:f806
+[21:40:17.717402 0.015062] [INFO: TSCH-LOG  ] {asn 00.00003fcc link  1  13   0  4  1 ch 20} drift -4 ppm (min/max delta seen: -48/20)
+[21:40:17.733296 0.015894] [INFO: TSCH-LOG  ] {asn 00.00003fcc link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len  64, seq 236, edr  -4, dr   4
+[21:40:19.491155 1.757862] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 448 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:40:19.506081 0.014864] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  266,   182 =>   448 --  8  bafp (last tx 0 min ago)
+[21:40:19.515596 0.009578] [INFO: RPL       ] nbr: end of list
+[21:40:20.548410 1.032809] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:40:20.557393 0.008985] [INFO: RPL       ] creating hop-by-hop option
+[21:40:20.561850 0.004460] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 154, queue 1 1, len 27 133
+[21:40:20.570798 0.008946] [INFO: App       ] Sent checksum 208 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:40:20.580735 0.009938] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:40:20.586217 0.005483] [INFO: App       ] 
+[21:40:20.588225 0.002007] Energest:
+[21:40:20.589665 0.001439] [INFO: App       ]  Radio LISTEN 25161182 TRANSMIT 746994 OFF      347702612 TOTAL: 373610788
+[21:40:20.598748 0.009086] [INFO: App       ] Total time: 85 minutes, 0 seconds, 65536 ticks pr sec
+[21:40:23.039599 2.440845] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 154, status 0, tx 1
+[21:40:23.052748 0.013155] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 176
+[21:40:23.060993 0.008244] [INFO: TSCH-LOG  ] {asn 00.00003fdb link  1  13   0  6  1 ch 20} drift 0 ppm (min/max delta seen: -48/20)
+[21:40:23.070520 0.009527] [INFO: TSCH-LOG  ] {asn 00.00003fdb link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 154, st 0  1, dr  10
+[21:40:26.414499 3.343977] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 65535
+[21:40:26.427023 0.012526] [INFO: RPL       ] received a multicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 263
+[21:40:26.441203 0.014179] [INFO: RPL       ] refreshing lifetime
+[21:40:26.444833 0.003632] [INFO: TSCH-LOG  ] {asn 00.00003fe5 link  2  11   0  0  2 ch 20} drift -3 ppm (min/max delta seen: -48/20)
+[21:40:26.454406 0.009573] [INFO: TSCH-LOG  ] {asn 00.00003fe5 link  2  11   0  0  2 ch 20} bc-1-5 rx LL-af06->LL-NULL, len 100, seq 236, edr   6, dr  -6
+[21:41:19.492346 53.037938] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 439 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:41:19.507514 0.015169] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   176 =>   439 --  9  bafp (last tx 0 min ago)
+[21:41:19.517282 0.009768] [INFO: RPL       ] nbr: end of list
+[21:41:25.047256 5.529970] [INFO: RPL       ] no neighbor needs probing
+[21:41:40.510491 15.463234] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:41:46.746135 6.235647] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 11, status 0, tx 1
+[21:41:46.759766 0.013632] [INFO: TSCH-LOG  ] {asn 00.000040cb link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq  11, st 0  1
+[21:42:19.486861 32.727091] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 439 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:42:19.505818 0.018963] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   176 =>   439 --  9  bafp (last tx 1 min ago)
+[21:42:19.515230 0.009410] [INFO: RPL       ] nbr: end of list
+[21:42:52.466568 32.951334] [INFO: RPL       ] no neighbor needs probing
+[21:43:19.483773 27.017206] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 439 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:43:19.502760 0.018989] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   176 =>   439 --  9  bafp (last tx 2 min ago)
+[21:43:19.512773 0.010014] [INFO: RPL       ] nbr: end of list
+[21:43:52.091050 32.578274] [INFO: RPL       ] no neighbor needs probing
+[21:43:56.120376 4.029326] [INFO: TSCH-LOG  ] {asn 00.0000423d link  0  23   0  6  0 ch 20} drift -4 ppm (min/max delta seen: -48/20)
+[21:43:56.136569 0.016197] [INFO: TSCH-LOG  ] {asn 00.0000423d link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 236, edr  52, dr -52
+[21:44:19.486610 23.350039] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 439 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:44:19.502144 0.015534] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   176 =>   439 --  9  bafp (last tx 3 min ago)
+[21:44:19.512710 0.010567] [INFO: RPL       ] nbr: end of list
+[21:45:19.481257 59.968545] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 439 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:45:19.497702 0.016445] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   176 =>   439 --  9  bafp (last tx 4 min ago)
+[21:45:19.508332 0.010631] [INFO: RPL       ] nbr: end of list
+[21:45:20.544719 1.036385] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:45:20.555500 0.010785] [INFO: RPL       ] creating hop-by-hop option
+[21:45:20.560038 0.004538] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 155, queue 1 1, len 27 133
+[21:45:20.568890 0.008850] [INFO: App       ] Sent checksum 12 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:45:20.578535 0.009645] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:45:20.584216 0.005676] [INFO: App       ] 
+[21:45:20.586378 0.002169] Energest:
+[21:45:20.587476 0.001099] [INFO: App       ]  Radio LISTEN 25419878 TRANSMIT 767226 OFF      367084634 TOTAL: 393271738
+[21:45:20.597020 0.009542] [INFO: App       ] Total time: 90 minutes, 0 seconds, 65536 ticks pr sec
+[21:45:23.044630 2.447610] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 155, status 0, tx 1
+[21:45:23.053279 0.008650] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 171
+[21:45:23.062527 0.009245] [INFO: TSCH-LOG  ] {asn 00.00004335 link  1  13   0  6  1 ch 20} drift -2 ppm (min/max delta seen: -52/20)
+[21:45:23.074315 0.011789] [INFO: TSCH-LOG  ] {asn 00.00004335 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 155, st 0  1, dr  36
+[21:45:49.108568 26.034251] [INFO: RPL       ] no neighbor needs probing
+[21:46:19.481772 30.373203] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 434 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:46:19.500815 0.019047] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   171 =>   434 -- 10  bafp (last tx 0 min ago)
+[21:46:19.510589 0.009775] [INFO: RPL       ] nbr: end of list
+[21:46:34.673171 15.162580] [INFO: RPL       ] sending a multicast-DIO with rank 434 to ff02::1a
+[21:46:34.680875 0.007703] [INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 155, queue 1 1, len 20 100
+[21:46:35.649579 0.968703] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 12, status 0, tx 1
+[21:46:35.658498 0.008904] [INFO: TSCH-LOG  ] {asn 00.00004405 link  2  11   0  0  2 ch 20} bc-1-5 tx LL-a804->LL-NULL, len 100, seq  12, st 0  1
+[21:47:19.484096 43.825615] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 434 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:47:19.500255 0.016160] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   171 =>   434 -- 10  bafp (last tx 1 min ago)
+[21:47:19.510039 0.009784] [INFO: RPL       ] nbr: end of list
+[21:47:44.386291 24.876251] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:47:48.640881 4.254590] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 13, status 0, tx 1
+[21:47:48.648470 0.007591] [INFO: TSCH-LOG  ] {asn 00.000044d6 link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq  13, st 0  1
+[21:48:02.709084 14.060609] [INFO: RPL       ] no neighbor needs probing
+[21:48:19.481082 16.771998] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 434 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:48:19.502168 0.021091] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   171 =>   434 -- 10  bafp (last tx 2 min ago)
+[21:48:19.511699 0.009530] [INFO: RPL       ] nbr: end of list
+[21:49:00.634428 41.122728] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 156, queue 1 1, len 27 27
+[21:49:00.643676 0.009249] [INFO: TSCH      ] sending KA to 0012.4b00.1532.af06
+[21:49:05.618122 4.974442] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 156, status 0, tx 1
+[21:49:05.673694 0.055573] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 166
+[21:49:05.682209 0.008519] [INFO: TSCH      ] KA sent to 0012.4b00.1532.af06, st 0-1
+[21:49:05.687672 0.005464] [INFO: TSCH-LOG  ] {asn 00.000045b2 link  1  13   0  6  1 ch 20} drift -3 ppm (min/max delta seen: -52/36)
+[21:49:05.697602 0.009929] [INFO: TSCH-LOG  ] {asn 00.000045b2 link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len  27, seq 156, st 0  1, dr -42
+[21:49:19.476549 13.778942] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 429 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:49:19.497254 0.020710] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   166 =>   429 -- 11  bafp (last tx 0 min ago)
+[21:49:19.507958 0.010704] [INFO: RPL       ] nbr: end of list
+[21:49:41.931400 22.423436] [INFO: TSCH-LOG  ] {asn 00.0000461a link  0  23   0  6  0 ch 20} drift -2 ppm (min/max delta seen: -52/36)
+[21:49:41.947441 0.016043] [INFO: TSCH-LOG  ] {asn 00.0000461a link  0  23   0  6  0 ch 20} bc-0-1 rx LL-af06->LL-NULL, len  41, seq 236, edr   4, dr  -4
+[21:49:45.118787 3.171343] [INFO: RPL       ] no neighbor needs probing
+[21:50:19.479534 34.360749] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 429 max-rank 1448, dioint 21, nbr count 1 (Periodic)
+[21:50:19.500019 0.020489] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  263,   166 =>   429 -- 11  bafp (last tx 1 min ago)
+[21:50:19.509337 0.009319] [INFO: RPL       ] nbr: end of list
+[21:50:20.542918 1.033577] [INFO: App       ] Sending data to fd00::212:4b00:1531:f806
+[21:50:20.553152 0.010237] [INFO: RPL       ] creating hop-by-hop option
+[21:50:20.557690 0.004539] [INFO: TSCH      ] send packet to 0012.4b00.1532.af06 with seqno 157, queue 1 1, len 27 133
+[21:50:20.566457 0.008768] [INFO: App       ] Sent checksum 229 and length80 to ipfd00::212:4b00:1531:f806[INFO: App       ] 
+[21:50:20.576252 0.009794] [INFO: App       ] Bytes pr min: 16, Packet Size: 80
+[21:50:20.581450 0.005197] [INFO: App       ] 
+[21:50:20.583517 0.002068] Energest:
+[21:50:20.584665 0.001148] [INFO: App       ]  Radio LISTEN 25671452 TRANSMIT 802994 OFF      386458310 TOTAL: 412932756
+[21:50:20.594341 0.009676] [INFO: App       ] Total time: 95 minutes, 0 seconds, 65536 ticks pr sec
+[21:50:23.050390 2.456044] [INFO: TSCH      ] packet sent to 0012.4b00.1532.af06, seqno 157, status 0, tx 1
+[21:50:23.063446 0.013061] [INFO: RPL       ] packet sent to 0012.4b00.1532.af06, status 0, tx 1, new link metric 162
+[21:50:23.072077 0.008631] [INFO: TSCH-LOG  ] {asn 00.0000468f link  1  13   0  6  1 ch 20} drift -1 ppm (min/max delta seen: -52/36)
+[21:50:23.082208 0.010131] [INFO: TSCH-LOG  ] {asn 00.0000468f link  1  13   0  6  1 ch 20} uc-1-5 tx LL-a804->LL-af06, len 133, seq 157, st 0  1, dr  20
+[21:50:49.583215 26.500999] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 245
+[21:50:49.596221 0.013013] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 256
+[21:50:49.610542 0.014320] [INFO: RPL       ] refreshing lifetime
+[21:50:49.614441 0.003900] [INFO: TSCH-LOG  ] {asn 00.000046db link  1  13   0  4  1 ch 20} drift -2 ppm (min/max delta seen: -52/36)
+[21:50:49.624975 0.010533] [INFO: TSCH-LOG  ] {asn 00.000046db link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 245, edr  10, dr -10
+[21:51:19.479364 29.854390] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 1442, dioint 21, nbr count 1 (Periodic)
+[21:51:19.500779 0.021416] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  256,   162 =>   418 --  6  bafp (last tx 0 min ago)
+[21:51:19.510283 0.009504] [INFO: RPL       ] nbr: end of list
+[21:51:35.037856 15.527572] [INFO: TSCH      ] received from 0012.4b00.1532.af06 with seqno 246
+[21:51:35.044626 0.006771] [INFO: RPL       ] received a unicast-DIO from fe80::212:4b00:1532:af06, instance_id 0, DAG ID fd00::212:4b00:1531:f806, version 240, dtsn 240, rank 256
+[21:51:35.058959 0.014332] [INFO: RPL       ] refreshing lifetime
+[21:51:35.062965 0.004007] [INFO: TSCH-LOG  ] {asn 00.0000475d link  1  13   0  4  1 ch 20} drift -6 ppm (min/max delta seen: -52/36)
+[21:51:35.073187 0.010222] [INFO: TSCH-LOG  ] {asn 00.0000475d link  1  13   0  4  1 ch 20} uc-1-5 rx LL-af06->LL-a804, len 106, seq 246, edr   6, dr  -6
+[21:51:57.784436 22.711244] [INFO: RPL       ] no neighbor needs probing
+[21:52:19.473914 21.689478] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 1442, dioint 21, nbr count 1 (Periodic)
+[21:52:19.497851 0.023941] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  256,   162 =>   418 --  6  bafp (last tx 1 min ago)
+[21:52:19.507789 0.009937] [INFO: RPL       ] nbr: end of list
+[21:53:19.478522 59.970734] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 1442, dioint 21, nbr count 1 (Periodic)
+[21:53:19.493363 0.014839] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  256,   162 =>   418 --  6  bafp (last tx 2 min ago)
+[21:53:19.503001 0.009640] [INFO: RPL       ] nbr: end of list
+[21:53:25.854520 6.351518] [INFO: TSCH      ] TSCH: enqueue EB packet 41 22
+[21:53:26.409257 0.554734] [INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 14, status 0, tx 1
+[21:53:26.421320 0.012067] [INFO: TSCH-LOG  ] {asn 00.0000489c link  0  23   0  4  0 ch 20} bc-0-1 tx LL-a804->LL-NULL, len  41, seq  14, st 0  1
+[21:53:32.799837 6.378513] [INFO: RPL       ] no neighbor needs probing
+[21:54:19.474192 46.674359] [INFO: RPL       ] nbr: own state, addr fd00::212:4b00:f29:a804, DAG state: reachable, MOP 1 OCP 1 rank 418 max-rank 1442, dioint 21, nbr count 1 (Periodic)
+[21:54:19.494779 0.020588] [INFO: RPL       ] nbr: fe80::212:4b00:1532:af06  256,   162 =>   418 --  6  bafp (last tx 3 min ago)
+[21:54:19.504274 0.009495] [INFO: RPL       ] nbr: end of list

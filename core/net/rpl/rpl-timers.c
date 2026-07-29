@@ -1,0 +1,333 @@
+/**
+ * \addtogroup uip6
+ * @{
+ */
+/*
+ * Copyright (c) 2010, Swedish Institute of Computer Science.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. Neither the name of the Institute nor the names of its contributors
+ *    may be used to endorse or promote products derived from this software
+ *    without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE INSTITUTE AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * This file is part of the Contiki operating system.
+ */
+/**
+ * \file
+ *         RPL timer management.
+ *
+ * \author Joakim Eriksson <joakime@sics.se>, Nicolas Tsiftes <nvt@sics.se>
+ */
+
+#include "contiki-conf.h"
+#include "net/rpl/rpl-private.h"
+#include "lib/random.h"
+#include "sys/ctimer.h"
+
+/////////////////////////////////////////////
+#include "lib/random.h"
+#include <math.h>
+#include "sys/energest.h"
+#include "net/rpl/rpl.h"
+#include "sys/node-id.h"
+#include "net/rpl/project-conf.h"
+#include "sys/node-id.h"  // By Rafik
+static uint16_t dio_sent_counter = 0;  // Global counter per node
+// --- 2. E_res = Available / Initial ---
+  #define MAX_ENERGY_TICKS 10000000UL // Choose based on simulation
+/////////////////////////////////////////////
+
+
+
+
+#if UIP_CONF_IPV6
+
+#define DEBUG DEBUG_PRINT
+#include "net/uip-debug.h"
+
+/*---------------------------------------------------------------------------*/
+static struct ctimer periodic_timer;
+
+static void handle_periodic_timer(void *ptr);
+static void new_dio_interval(rpl_instance_t *instance);
+static void handle_dio_timer(void *ptr);
+
+static uint16_t next_dis;
+
+/* dio_send_ok is true if the node is ready to send DIOs */
+static uint8_t dio_send_ok;
+
+/*---------------------------------------------------------------------------*/
+static void
+handle_periodic_timer(void *ptr)
+{
+  rpl_purge_routes();
+  rpl_recalculate_ranks();
+
+  /* handle DIS */
+#ifdef RPL_DIS_SEND
+  next_dis++;
+  if(rpl_get_any_dag() == NULL && next_dis >= RPL_DIS_INTERVAL) {
+    next_dis = 0;
+    dis_output(NULL);
+  }
+#endif
+  ctimer_reset(&periodic_timer);
+}
+/*---------------------------------------------------------------------------*/
+
+////////////////////////////////////////////////////////////////////////////////
+
+static void
+new_dio_interval(rpl_instance_t *instance)
+{
+  uint32_t time;
+  clock_time_t ticks;
+
+  // Force fixed 128s interval - Done by Rafik
+  time = CLOCK_SECOND * 8; // Fixed interval instead of trickle formula - Done by Rafik
+  ticks = time; // Direct use without conversion - Done by Rafik
+  instance->dio_next_delay = ticks; // Set delay to fixed 128s - Done by Rafik
+
+  instance->dio_send = 1;
+  instance->dio_counter = 0; // reset the redundancy counter - Done by Rafik
+
+ // PRINTF("RPL: Scheduling DIO every 128 seconds (fixed)\n"); // Done by Rafik
+  ctimer_set(&instance->dio_timer, ticks, &handle_dio_timer, instance); // Use fixed delay - Done by Rafik
+}
+/*---------------------------------------------------------------------------*/
+static void
+handle_dio_timer(void *ptr)
+{
+  rpl_instance_t *instance = (rpl_instance_t *)ptr;
+
+  //PRINTF("RPL: DIO Timer triggered\n");
+
+  if(!dio_send_ok) {
+    if(uip_ds6_get_link_local(ADDR_PREFERRED) != NULL) {
+      dio_send_ok = 1;
+    } else {
+      PRINTF("RPL: Postponing DIO transmission, no valid link-local address\n");
+      ctimer_set(&instance->dio_timer, CLOCK_SECOND * 8, &handle_dio_timer, instance); // Force retry after 128s - Done by Rafik
+      return;
+    }
+  }
+
+
+instance->dio_send = 1; // Always re-enable DIO flag every time
+  if(instance->dio_send) {
+    if(instance->dio_send ||
+   (instance->current_dag != NULL &&
+    (instance->current_dag->preferred_parent != NULL ||
+     instance->current_dag->rank == ROOT_RANK(instance)))) {
+
+double fast_exp_neg(double x) { return 1.0 / (1.0 + x); }
+////////////////////////////////////  Declaration des parametres //////////////////////////////////////	
+// --- Get current DAG info ---
+  rpl_dag_t *dag = instance->current_dag;
+  if(dag == NULL || (dag->preferred_parent == NULL && dag->rank != ROOT_RANK(instance))) {
+    return 0; // Can't send if not in DAG and not root
+  }
+
+ const uint16_t N_min_target = N_MIN_TARGET;
+ //uint16_t N_current = dodag_node_count;
+  uint16_t N_current = 6;
+
+// --- 1. γ = N_current / N_min_target ---
+ double gamma = N_current / (double)N_min_target;
+uint64_t used_energy = energest_type_time(ENERGEST_TYPE_CPU) + energest_type_time(ENERGEST_TYPE_LPM);
+double E_res = 1.0 - ((double)used_energy / MAX_ENERGY_TICKS);
+if(E_res < 0) { E_res = 0.0; }    // Clamp to 0
+// --- 3. d_n = DAG rank / MIN_HOP_RANK_INC ---
+uint16_t rank = DAG_RANK(dag->rank, instance);
+uint16_t d_n = (rank + (RPL_MIN_HOPRANKINC / 2)) / RPL_MIN_HOPRANKINC;
+double P_DIO;
+// --- 6. Draw random [0, 1] ---
+double rand_prob = random_rand() / (double)RANDOM_RAND_MAX;
+
+
+/////////////////////////////////// Test Probability ///////////////////////////////////////////////////
+
+int should_send_dio(rpl_instance_t *instance) {
+ 
+  //double exp_term = exp(-d_n * mean_w);
+  double exp_term = fast_exp_neg(d_n);
+  P_DIO = (1.0 - gamma) + gamma * E_res * exp_term;
+  return (rand_prob < P_DIO);
+}
+
+////////////////////////////////////Optional: print for debugging ///////////////////////////////////////
+
+#define PRINT_FLOAT(label, value)                                  \
+  do {                                                             \
+    int __int = (int)(value);                                      \
+    int __frac = (int)(((value) - __int) * 1000);                  \
+    if(__frac < 0) __frac = -__frac;                               \
+    PRINTF("%s = %d.%03d", label, __int, __frac);                \
+  } while(0)
+const rpl_parent_t *parent = instance->current_dag->preferred_parent;
+const uip_ipaddr_t *parent_ip = rpl_get_parent_ipaddr(parent);
+
+  // The last byte of the address typically matches the node ID
+  uint8_t parent_id = parent_ip->u8[15];
+
+//////////////////////////////////// Send DIO_bcn if probability OK and Print ///////////////////////////////////////
+
+if (E_res==0.0) PRINTF("lora: Node %u is DEAD. \n", node_id); else {
+if(should_send_dio(instance)) {
+  dio_output(instance, NULL);
+
+dio_sent_counter++;
+PRINTF("lora_dio: Node %u: DIO_ %u sent with ", node_id, dio_sent_counter);
+PRINT_FLOAT("  P_DIO", P_DIO);
+PRINT_FLOAT("  rand", rand_prob);
+//PRINT_FLOAT("  d_n", d_n);
+PRINT_FLOAT("  E_ress", E_res);
+//PRINT_FLOAT("  gamma", gamma);
+PRINTF(". ", node_id, dio_sent_counter);
+
+    if(parent == NULL) {
+        PRINTF("No preferred parent yet.\n");
+    } else {
+        PRINTF("Preferred parent: Node_%u with rank %d.\n",parent_id,  parent->rank/10);
+
+        ////PRINT6ADDR(rpl_get_parent_ipaddr(parent));
+        ////PRINTF(" with rank %d.\n", parent->rank);
+       
+    }
+
+} else { 
+
+      
+//dio_sent_counter++;
+PRINTF("lora_dio: Node %u: DIO_ %u NOT sent with ", node_id, dio_sent_counter);
+PRINT_FLOAT("  P_DIO", P_DIO);
+PRINT_FLOAT("  rand", rand_prob);
+//PRINT_FLOAT("  d_n", d_n);
+PRINT_FLOAT("  E_res", E_res);
+//PRINT_FLOAT("  gamma", gamma);
+PRINTF(". ", node_id, dio_sent_counter);
+
+    if(parent == NULL) {
+        PRINTF("No preferred parent yet.\n");
+    } else {
+        PRINTF("Preferred parent: Node_%u with rank %d.\n",parent_id,  parent->rank/10);
+
+        ////PRINT6ADDR(rpl_get_parent_ipaddr(parent));
+        ////PRINTF(" with rank %d.\n", parent->rank);
+           }
+}
+
+}
+
+
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+ // Reschedule next fixed interval - Done by Rafik
+    //PRINTF("RPL: Rescheduling DIO timer for 128 seconds (fixed)\n");
+    ctimer_set(&instance->dio_timer, CLOCK_SECOND * 8, handle_dio_timer, instance); // Done by Rafik
+  } else {
+    // Still reschedule to ensure it keeps running - Done by Rafik
+    PRINTF("RPL: DIO Timer fired, no send flag, rescheduling\n"); // Done by Rafik
+    ctimer_set(&instance->dio_timer, CLOCK_SECOND * 8, handle_dio_timer, instance); // Done by Rafik
+  }
+}
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+/*---------------------------------------------------------------------------*/
+void
+rpl_reset_periodic_timer(void)
+{
+  next_dis = RPL_DIS_INTERVAL / 2 +
+    ((uint32_t)RPL_DIS_INTERVAL * (uint32_t)random_rand()) / RANDOM_RAND_MAX -
+    RPL_DIS_START_DELAY;
+  ctimer_set(&periodic_timer, CLOCK_SECOND, handle_periodic_timer, NULL);
+}
+/*---------------------------------------------------------------------------*/
+/* Resets the DIO timer in the instance to its minimal interval. */
+void
+rpl_reset_dio_timer(rpl_instance_t *instance)
+{
+#if !RPL_LEAF_ONLY
+  /* Do not reset if we are already on the minimum interval,
+     unless forced to do so. */
+  if(instance->dio_intcurrent > instance->dio_intmin) {
+    instance->dio_counter = 0;
+    instance->dio_intcurrent = instance->dio_intmin;
+    new_dio_interval(instance);
+  }
+#if RPL_CONF_STATS
+  rpl_stats.resets++;
+#endif /* RPL_CONF_STATS */
+#endif /* RPL_LEAF_ONLY */
+}
+/*---------------------------------------------------------------------------*/
+static void
+handle_dao_timer(void *ptr)
+{
+  rpl_instance_t *instance;
+
+  instance = (rpl_instance_t *)ptr;
+
+  if(!dio_send_ok && uip_ds6_get_link_local(ADDR_PREFERRED) == NULL) {
+    //PRINTF("RPL: Postpone DAO transmission\n");
+    ctimer_set(&instance->dao_timer, CLOCK_SECOND, handle_dao_timer, instance);
+    return;
+  }
+
+  /* Send the DAO to the DAO parent set -- the preferred parent in our case. */
+  if(instance->current_dag->preferred_parent != NULL) {
+    //PRINTF("RPL: handle_dao_timer - sending DAO\n");
+    /* Set the route lifetime to the default value. */
+    dao_output(instance->current_dag->preferred_parent, instance->default_lifetime);
+  } else {
+    //PRINTF("RPL: No suitable DAO parent\n");
+  }
+  ctimer_stop(&instance->dao_timer);
+}
+/*---------------------------------------------------------------------------*/
+void
+rpl_schedule_dao(rpl_instance_t *instance)
+{
+  clock_time_t expiration_time;
+
+  expiration_time = etimer_expiration_time(&instance->dao_timer.etimer);
+
+  if(!etimer_expired(&instance->dao_timer.etimer)) {
+    //PRINTF("RPL: DAO timer already scheduled\n");
+  } else {
+    expiration_time = RPL_DAO_LATENCY / 2 +
+      (random_rand() % (RPL_DAO_LATENCY));
+    //PRINTF("RPL: Scheduling DAO timer %u ticks in the future\n",
+        //   (unsigned)expiration_time);
+    ctimer_set(&instance->dao_timer, expiration_time,
+               handle_dao_timer, instance);
+  }
+}
+/*---------------------------------------------------------------------------*/
+#endif /* UIP_CONF_IPV6 */

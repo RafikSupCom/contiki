@@ -1,0 +1,9 @@
+
+> make lora-receiver.cooja TARGET=cooja 
+  CC        lora-receiver.c
+In file included from lora-receiver.c:17:0:
+project-conf.h:57:51: fatal error: dev/sx1272/sx1272-project-conf-macros.h: No such file or directory
+compilation terminated.
+make: *** [lora-receiver.co] Error 1
+Process returned error code 2
+

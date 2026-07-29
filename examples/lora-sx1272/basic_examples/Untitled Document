@@ -1,0 +1,6 @@
+
+> make lora-receiver.cooja TARGET=cooja 
+Makefile:8: /Makefile.include: No such file or directory
+make: *** No rule to make target `/Makefile.include'.  Stop.
+Process returned error code 2
+
